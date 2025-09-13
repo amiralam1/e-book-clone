@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .member-card {
+            max-width: 300px;
+            min-height: 620px;
+        }
+
+        .team-membercards {
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: white;
+        }
+
+        .services-icons-rows {
+            gap: 25px;
+        }
+
+        .services-icons {
+            gap: 25px;
+        }
+
+        .service-card-img a img {
+            width: 90%;
+            height: 70%;
+        }
+
+        .service-card-img a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width:480px) {
+            .service-card-img a img {
+                width: 65%;
+                height: 70%;
+            }
+
+            #hero-btn1 {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Assets/Logos/logo (1).png" alt="Logo">
+        </div>
+        <button class="hamburger">&#9776;</button>
+        <div class="right-nav">
+            <div class="top-bar">
+                <ul class="bar">
+                    <li><a href="#">1-844-997-4837</a></li>
+                    <!-- <li class="flex-img-txt toggle"><img src="Assets/Logos/united-states.png" alt=""><a href="#"><img src="" alt="">US</a><img id="expand-arrow" src="Assets/Images/expand arrow.png" alt="">
+                        <ul class="dropdown-1">
+                            <li class="flex-img-txt"> <img src="Assets/Logos/united-states.png" alt=""> <a href="#">US</a></li>
+                            <li class="flex-img-txt"> <img src="Assets/Logos/united-kingdom.webp" alt=""> <a href="#">UK</a></li>
+                        </ul>
+
+                    </li> -->
+                    <li><button class="btn1">CONTACT US</button></li>
+                </ul>
+            </div>
+            <div class="bottom-bar">
+                <ul class="bar">
+                    <li class="toggle"><span><a href="./ghostwritingServices.php">BOOK WRITING & GHOST WRITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./ghostwritingServices.php">Ghostwriting Services</a></li>
+                            <li><a href="./business&LeadershipBooks.php">Business & Leadership Books</a></li>
+                            <li><a href="./autobiographyBooks.php">Memoir/Autobiography Books</a></li>
+                            <li><a href="./health&self-helpBooks.php">Health & Self-Help Books</a></li>
+                            <li><a href="./children'sBooks.php">Children’s Books</a></li>
+                            <li><a href="./generalNonfiction.php">General Nonfiction</a></li>
+                            <li><a href="./fiction.php">Fiction Books</a></li>
+                            <li><a href="./bookProposals.php">Book Proposals</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle"><span><a href="./bookEditingServices.php">EDITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./bookEditingServices.php">Book Editing Services</a></li>
+                            <li><a href="./bookReview&Consultation.php">Book Review & Consultation</a></li>
+                            <li><a href="./culturalAccuracySensitivityEditorialServices.php">Cultural Accuracy & Sensitivity Editorial Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle"><span><a href="./bookCoachingServices.php">BOOK COACHING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./bookCoachingServices.php">Book Coaching Services </a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle"><span><a href="./ourTeam.php">ABOUT US</a><span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./ourTeam.php">Our Team</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+    <section class="hero-container">
+        <div class="content-container">
+            <div class="left-container">
+                <div class="content">
+                    <div class="hero-heading">
+                        <h1>Cultural Accuracy &</h1>
+                        <h1>Sensitivity Editorial </h1>
+                        <h1>Services </h1>
+                    </div>
+                    <div class="hero-content">
+                        <p>Ensure your manuscript is accurate, authentic, and free from harmful stereotypes. </p>
+                    </div>
+                    <div class="hero-button">
+                        <button id="hero-btn1">SCHEDULE A CONSULTATION</button>
+                        <button class="team-button">Our Team</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="image-grid">
+
+                    <div class="grid-item">
+                        <img src="Assets/Images/She-Builds.png" alt="Image 1">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <img src="Assets/Images/Say-One-Kind-Thing.png" alt="Image 2">
+                        <img src="Assets/Images/Athletes-Who-Changes-the-Game.png" alt="Image 3">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <img src="Assets/Images/Mihi-Ever-After.png" alt="Image 4">
+                        <!-- <img src="Assets/Images/The-Woman-Next-Door-A-Novel-800x1074.png" alt="Image 5"> -->
+                    </div>
+
+
+                    <div class="grid-item">
+                        <img id="bk-img-grid-last" src="Assets/Images/Nice-Work-Nora-November.png" alt="Image 6">
+                        <!-- <div class="arrow-text">
+                            <img src="Assets/Images/left arrow.png" alt="Left Arrow" class="left-arrow-icon">
+                            <p>Titles acquired or edited</p>
+                            <p>by members of our staff</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="logo-container">
+            <div class="hero-logo"><img src="Assets/Logos/WashPostStacked_New_600x-400x265.png" alt=""></div>
+            <div class="hero-logo"><img src="Assets/Logos/inc-magazine-logo@3x.webp" alt=""></div>
+            <div class="hero-logo"><img src="Assets/Logos/logo-publishers-weekly@3x.webp" alt=""></div>
+            <div class="hero-logo"><img src="Assets/Logos/Forbes-Ghostwrirting-Services-e1598300532500.webp" alt=""></div>
+            <div class="hero-logo"><img src="Assets/Logos/fox-news-logo.jpg" alt=""></div>
+            <div class="hero-logo"><img src="Assets/Logos/New_York_Times_logo.jpg" alt=""></div>
+            <div class="hero-logo"><img src="Assets/Logos/fast-company-logo-vector.svg" alt=""></div>
+        </div> -->
+    </section>
+    <section class="empower-wrapper" style="margin-top:40px">
+        <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/IMG_7580-1200x931.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">What Are Cultural Accuracy & Sensitivity Editorial Services?
+                    </div>
+                    <div class="empower-content-para">
+                        Cultural Accuracy & Sensitivity Editing (CASE) (also known as Sensitivity, Authenticity, Diversity, or Targeted Expert Reading) involves vetting a book, manuscript, or other document for issues of (mis)representation, bias, stereotypes, and a range of other factors that may be deemed harmful or antagonistic to a person or group.
+                        <br><br>
+                        Learn more about cultural accuracy editing in this article by KAA Senior Editor Hannah Gómez, featured in Publishers Weekly’s Book Publishing Almanac 2022. Find answers to frequently asked questions and concerns here.
+                        <br><br>
+                        Read testimonials from bestselling authors, publishing executives, cultural institutions, and other CASE clients here.
+                    </div>
+                    <div class="empower-content-button">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="empower-heading">
+            <p>What We Do</p>
+        </div>
+        <div class="empower-card-container">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/Culturally-Sensitive-Publishing-Strategy-for-Backlist-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Critical Review and Analysis</div>
+                    <div class="empower-content-para">Collaborate one-on-one with a former Big-5 acquisitions editor to receive feedback on all aspects of your manuscript’s flow, structure, cohesiveness, arc, marketability, target audience, and readability, as well as any other issues that may affect the quality of the book.</div>
+                    <div class="empower-content-button"><button>Schedule Consultation</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/6-1200x775.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Line Editing
+                    </div>
+                    <div class="empower-content-para">With your publishing goals in mind, work with an editor that understands your book and will provide editorial support for grammar, punctuation, readability, flow, diction, and syntax, as well as minor rewriting and restructuring on the phrasal level.</div>
+                    <div class="empower-content-button"><button>Schedule Consultation</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/pexels-cottonbro-studio-4861360-1200x800.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Developmental Editing</div>
+                    <div class="empower-content-para">Work one-one-one with an editor suited for your type of book and receive substantive editing and rewriting, as well as detailed critical feedback on structure, coherence, concept, positioning, audience, and marketability.With your publishing goals in mind, work with an editor that understands your book and will provide editorial support for grammar, punctuation, readability, flow, diction, and syntax, as well as minor rewriting and restructuring on the phrasal level. </div>
+                    <div class="empower-content-button"><button>Schedule Consultation</button></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/6-1200x775.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Publishing Navigation</div>
+                    <div class="empower-content-para">From book concept to securing the ideal publisher for your book, our publishing executives will guide you every step of the way. We can even help with launch, marketing, and targeting bestseller lists</div>
+                    <div class="empower-content-button"><button>Learn More</button></div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <section class="services-wrapper  bg-lightblue">
+        <div class="service-heading">
+            <p>We Also Offer</p>
+        </div>
+        <div class="services-icons">
+            <div class="services-icons-rows">
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.hachettebookgroup.com/"><img src="Assets/Logos/1024-px-hachette-books-logo-svg@2x.webp" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Art & Illustration Review</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://us.macmillan.com/"><img src="Assets/Logos/macmillan-logotype@2x-400x67.webp" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Sensitivity Reading</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.penguinrandomhouse.com/"><img src="Assets/Logos/penguin-random-house-logo@2x.webp" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Art & Illustration Review</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.harpercollins.com/"><img src="Assets/Logos/harpercollins-logo@2x-400x43.webp" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Translation Services</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://artbma.org/"><img src="Assets/Images/Baltimore-Museum-of-Art-logo-400x200.png" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Consulting Conference <br> Calls</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.press.jhu.edu/"><img src="Assets/Images/JHU-Logo-Padding-50.svg" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Professional <br> Development <br> Workshops</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.dk.com/uk/"><img src="Assets/Images/DK-UK.svg" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Book Club/Discussion <br> Guide Development</a></div> -->
+                </div>
+            </div>
+            <div class="services-icons-rows">
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.littlepassports.com/"><img src="Assets/Images/lp-logo-blue-with-begin.svg" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Copy Editing</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.sourcebooks.com/"><img src="Assets/Images/Sourcebooks_Logo-400x210.jpg" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Line Editing
+                            Testing</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.entangledpublishing.com/"><img src="Assets/Images/Entangled-Publishing-400x83.png" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Copy Editing</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.owlcrate.com/"><img src="Assets/Images/owlcrate_logo_horizontal1_600x.png" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Ghostwriting & <br>Rewriting</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://godine.com/collections/godine"><img src="Assets/Images/godine.png" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Cultural Accuracy</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://littletiger.co.uk/"><img src="Assets/Images/Little-Tiger-logo.svg" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Publishing Navigation</a></div> -->
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="https://www.hachettebookgroup.com/imprint/voracious/"><img src="Assets/Images/Voracious.png" alt=""></a></div>
+                    <!-- <div class="service-card-name"><a href="#">Direct Submissions to <br> Publishers</a></div> -->
+                </div>
+
+            </div>
+    </section>
+    <section class="empower-wrapper">
+        <!-- <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/writing2-1200x793.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Book Proposals that Sell
+                    </div>
+                    <div class="empower-content-para">Our team of Big-5 acquisitions editors and #1 New York Times-bestselling writers will collaborate with you to create a powerful book proposal and guide you through the entire publishing industry. <br><br>Meet our Team of bestselling editors and publishing professionals.</div>
+                    <div class="empower-content-button"><button>Learn More</button></div>
+                </div>
+            </div>
+        </div> -->
+        <div class="empower-heading">
+            <p>Cultural Accuracy & Sensitivity Editorial Services Comprise</p>
+        </div>
+        <div class="empower-card-container">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/Photo-byaimeevia-Iwaria-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Cultural Accuracy & Sensitivity Editing</div>
+                    <div class="empower-content-para">We do full manuscript markup and write an editorial letter with a special focus on the areas of marginalization, diversity, localization, or other concerns you identify. Sample editorial notes are available by request.</div>
+                    <div class="empower-content-button"><button>REQUEST SAMPLE</button><button>SCHEDULE A CONSULT</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/from-Disability-IN-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Ethnolinguistic-Sensitive Editing
+                    </div>
+                    <div class="empower-content-para">Traditional editors can help you with your commas and apostrophes, but regional dialects, local patois, or hybrid languages require deeper knowledge. African American Vernacular English (AAVE), Spanglish, and Jamaican patois are just some examples of linguistic families that have specific grammars and cadences to be mindful of and that we have edited for clients. Sample editorial notes are available by request.</div>
+                    <div class="empower-content-button"><button>REQUEST SAMPLE</button><button>SCHEDULE A CONSULT</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/A-group-of-co-workers-of-varying-genders-having-a-meeting-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Culturally Sensitive IP Development</div>
+                    <div class="empower-content-para">How can you respectfully and authentically create characters, worlds, and plotlines that reflect diverse cultures and peoples? Plan your IP and licensed product lines with publishing professionals who understand cultural sensitivity, diversity, and inclusion. </div>
+                    <div class="empower-content-button"><button>LEARN MORE</button><button>SCHEDULE A CONSULT</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/business-meeting-01-navabi-stock-photo-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Culturally Sensitive Publishing Strategies</div>
+                    <div class="empower-content-para">Breathe new life into your catalog with the help of editors with deep knowledge of literary history, awareness of current and upcoming trends and cultural shifts, and, of course, expertise in various marginalized identities and experiences. We don’t just Find + Replace With Political Correctness–when you bring your backlist to us, we offer you targeted, specific advice and guidance on everything from editorial to marketing positioning to new covers unique to your backlist and stakeholders.</div>
+                    <div class="empower-content-button"><button>LEARN MORE</button><button>SCHEDULE A CONSULT</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/gael-gaborel-orbisterrae-G_MCcG2YqPQ-unsplash-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Americanization</div>
+                    <div class="empower-content-para">Are you ready for your English-language text to hit the US market? We can help you determine whether Americanization is necessary, and then we can provide you with the editorial service to get it there. </div>
+                    <div class="empower-content-button"><button>LEARN MORE</button><button>SCHEDULE A CONSULT</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-wrapper">
+        <div class="service-heading">
+            <p>We Also Offer</p>
+        </div>
+        <div class="services-icons">
+            <div class="services-icons-rows">
+                <div class="service-card bg-lightblue">
+                    <div class="service-card-img"><img src="Assets/images/sensitivity-reading.svg" alt=""></div>
+                    <div class="service-card-name">Sensitivity Reading</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="Assets/Images/art.svg" alt=""></div>
+                    <div class="service-card-name">Art & Illustration Review</div>
+                </div>
+                <div class="service-card bg-lightblue">
+                    <div class="service-card-img"><img src="Assets/Images/Translation.svg" alt=""></div>
+                    <div class="service-card-name">Translation Services</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="Assets/Images/Live-Consult.svg" alt=""></div>
+                    <div class="service-card-name">Consulting Conference <br> Calls</div>
+                </div>
+                <div class="service-card bg-lightblue">
+                    <div class="service-card-img"><img src="Assets/Images/Book-Coaching.svg " alt=""></div>
+                    <div class="service-card-name">Professional <br> Development <br> Workshops</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="Assets/Logos/Direct-Submissions-to-Publishers.svg" alt=""></div>
+                    <div class="service-card-name">Book Club/Discussion <br> Guide Development</div>
+                </div>
+            </div>
+            <!-- <div class="services-icons-rows">
+                <div class="service-card">
+                    <div class="service-card-img"><a href="#"><img src="Assets/Logos/Beta-Reader-Testing.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="#">Line Editing
+                            Testing</a></div>
+                </div>
+                <div class="service-card bg-lightblue">
+                    <div class="service-card-img"><a href="#"><img src="Assets/Logos/Book-Coaching.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="#">Copy Editing</a></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="#"><img src="Assets/Logos/Pub-and-Marketing-Strategy.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="#">Ghostwriting & <br>Rewriting</a></div>
+                </div>
+                <div class="service-card bg-lightblue">
+                    <div class="service-card-img"><a href="#"><img src="Assets/Logos/Agent-Introductions.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="#">Cultural Accuracy</a></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><a href="#"><img src="Assets/Logos/Direct-Submissions-to-Publishers.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="#">Publishing Navigation</a></div>
+                </div>
+                <div class="service-card bg-lightblue">
+                    <div class="service-card-img"><a href="#"><img src="Assets/Logos/Beta-Reader-Testing (1).svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="#">Direct Submissions to <br> Publishers</a></div>
+                </div>
+
+            </div> -->
+    </section>
+    <section class="bestselling-wrapper">
+        <!-- <div class="bestselling-content">
+            <p>Our Work</p>
+        </div> -->
+        <!-- <div class="bestselling-books">
+
+
+
+            <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/happy-money@2x.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>#1 bestselling author</p>
+                </div>
+            </div>
+            <div class="bookCard-container">
+                <div class="book-img" style="width: 220px;">
+                    <img src="Assets/Images/built-not-born@2x.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>#1 national and WSJ bestseller</p>
+                </div>
+            </div>
+            <div class="bookCard-container">
+                <div class="book-img" style="width: 220px;">
+                    <img src="Assets/Images/the-silver-eyes@2x.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>#1
+                        New York Times bestseller</p>
+                </div>
+            </div>
+            <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/Dunder-Mifflin-1-800x1075.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>NYT bestseller by producers of NBC’s The Officer</p>
+                </div>
+            </div>
+
+            <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/good-money-800x1076.png" alt="">
+                </div>
+                <div class="book-content">
+                    <p>NYT bestseller 100,000+ copies sold</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="team-button">
+            <button> <b> See more of our bestselling books</b></button>
+        </div> -->
+        <div class="bestselling-authors">
+
+            <div class="author-container">
+                <div class="author-content">
+                    <p>
+                        Partnering with Hannah and the KAA team has been a consistently positive experience. Their team’s exceptional attention to detail and commitment to cultural accuracy is commendable. KAA’s sensitivity editors are not only thorough but also incredibly perceptive and the value they’ve added extends beyond the pages, fostering a deeper understanding and respect for diverse narratives and for authors writing outside of their lived experience. I strongly endorse their services to any writer seeking to enhance their manuscript with conscientious and respectful representation.
+
+                    </p>
+                </div>
+                <div class="author-card">
+                    <div class="author-img" id="brian">
+                        <img src="Assets/Images/carrie-344x400.jpeg" alt="">
+                    </div>
+                    <div class="author-description">
+                        <h3>Carrie Bloxson</h3>
+                        <p>Chief Diversity, Equity and Inclusion Officer, Hachette Book Group</p>
+                    </div>
+                </div>
+            </div>
+            <div class="author-container">
+                <div class="author-content">
+                    <p>
+                        I’m so happy that I moved forward with a Cultural Accuracy & Sensitivity Edit at KAA, so my book could be more inclusive and resonate with a wide range of readers. They spent time making sure they found the best reader who could address my concerns and personal blindspots. My reader shared clear comments and provided great alternative words and phrases to explore using instead. I also loved the helpful resources and links to articles to provide me with more context and education. I not only have a better book because of a CASE, but I also feel like a better human. I have been recommending this service to my friends and clients because I truly believe all authors should have a Cultural Accuracy Edit before sharing their work with the world.
+                    </p>
+                </div>
+                <div class="author-card">
+                    <div class="author-img">
+                        <img src="Assets/Images/jadah-sellner-400x400.jpg" alt="">
+                    </div>
+                    <div class="author-description">
+                        <h3>Jadah Sellner</h3>
+                        <p>Bestselling author of Simple Green Smoothies (Rodale Books) and She Builds (Harper Business)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="author-container">
+                <div class="author-content">
+                    <p>
+                        KAA provided the BMA with knowledgeable, thoughtful outside readers to ensure our label copy was as accurate, clear, and sensitive as possible. Our presentation of complex topics benefited from the support of readers who were not just subject matter experts in the topic, but also attuned to the specific needs of museum visitors.
+                    </p>
+                </div>
+                <div class="author-card">
+                    <div class="author-img">
+                        <img src="Assets/Images/Baltimore-Museum-of-Art-logo-400x200.png" alt="">
+                    </div>
+                    <div class="author-description">
+                        <h3><a href="#" style="color: black;font-size: 25px;color: black; text-decoration:none; text-decoration:underline; text-decoration-color: #4ebdc5">Baltimore Museum of Art</a></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="team-wrapper">
+        <div class="team-heading">
+            <p>CASE Team</p>
+            <hr>
+        </div>
+        <div class="team-membercards">
+
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/Gomez-Hannah-headshot-1121x1200.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Hannah Gómez</p>
+                        <p id="designation"><em><b>Senior Editor, Cultural Accuracy and Sensitivity Editorial Services</b></em></p>
+                        <p>Bestselling editor and head of KAA’s cultural accuracy editorial department</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <!-- <div class="member-books">
+                    <img src="Assets/Images/Live-Long-and-What-I-Learned-Along-the-Way.png" alt="">
+                    <img src="Assets/Images/Bernie-Sanders-Where-We-Go-from-Here.png" alt="">
+                    <img src="Assets/Images/On-the-House-A-Washington-Memoir.png" alt="">
+                </div> -->
+            </div>
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/Stephen-Power-headshot-797x1200.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Stephen S. Power</p>
+                        <p id="designation"><em><b>Executive Editor</b></em></p>
+                        <p>#1 New York Times-bestselling editor and former Big 5 executive editor with 500+ titles</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <!-- <div class="member-books">
+                    <img src="Assets/Images/Live-Long-and-What-I-Learned-Along-the-Way.png" alt="">
+                    <img src="Assets/Images/Bernie-Sanders-Where-We-Go-from-Here.png" alt="">
+                    <img src="Assets/Images/On-the-House-A-Washington-Memoir.png" alt="">
+                </div> -->
+            </div>
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/nikki-e1654024439122.png" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Nikki Lane</p>
+                        <p id="designation"><em><b>Cultural Accuracy Editorial Services</b></em></p>
+                        <p>Board Member</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <!-- <div class="member-books">
+                    <img src="Assets/Images/Daring-Greatly.webp" alt="">
+                    <img src="Assets/Images/Rising-Strong-.webp" alt="">
+                    <img src="Assets/Images/Find-Your-Path.webp" alt="">
+                </div> -->
+            </div>
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/STEPHEN-1168x1200.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Stephen Pitti</p>
+                        <p id="designation"><em><b>Cultural Accuracy Editorial Services</b></em></p>
+                        <p>Board Member</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <!-- <div class="member-books">
+                    <img src="Assets/Images/James-Bond_-Casino-Royale-by-Ian-Fleming.png" alt="">
+                    <img src="Assets/Images/The-Fall-of-Nu╠Аmenor-by-J.R.R.-Tolkien.png" alt="">
+                    <img src="Assets/Images/The-Bourne-Deception-by-Robert-Ludlum.png" alt="">
+                </div> -->
+            </div>
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/COURTNEY-1200x1200.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Courtney L. Young</p>
+                        <p id="designation"><em><b>Cultural Accuracy Editorial Services</b></em></p>
+                        <p>Board Member</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <!-- <div class="member-books">
+                    <img src="Assets/Images/James-Bond_-Casino-Royale-by-Ian-Fleming.png" alt="">
+                    <img src="Assets/Images/The-Fall-of-Nu╠Аmenor-by-J.R.R.-Tolkien.png" alt="">
+                    <img src="Assets/Images/The-Bourne-Deception-by-Robert-Ludlum.png" alt="">
+                </div> -->
+            </div>
+        </div>
+        <div class="team-button"><button>Meet our Team</button></div>
+    </section>
+    <section class="kaa">
+        <div class="heading">
+            <h2>Let’s make better books.</h2>
+        </div>
+        <div class="text">
+            <p>
+                Our experienced cultural accuracy editors will help you elevate your book and give <br> you peace of mind that you’re not causing harm to your readers.
+            </p>
+        </div>
+
+        <!-- <div class="text">
+            <p>
+                We’ll show you how to improve your readers’ experience and enhance your book’s appeal to publishers.
+            </p>
+        </div> -->
+
+        <!-- <div class="text">
+            <p>
+                Call us to discuss your book idea and begin your journey toward becoming a <br> published author.
+            </p>
+        </div> -->
+
+        <div class="btn">
+            <button class="counter-btn1">SCHEDULE A CONSULTATION</button>
+        </div>
+    </section>
+    <section class="location-wrapper">
+        <h4>Our offices are in New York, Nashville, and Los Angeles.</h4>
+        <h4>Can’t get to us? <b>We can bring our team to you.</b></h4>
+    </section>
+    <section class="faq-wrapper">
+        <div class="faq-heading">
+            <h3>FAQ</h3>
+        </div>
+        <div class="faq-container">
+            <div class="faq-column">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Are your editors certified sensitivity readers?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Certification and accreditation happen when stakeholders in an industry or discipline come together to determine standards and form a governing body to oversee them. There is no governing body or certifying agency for any aspect of book publishing, including sensitivity reading or cultural accuracy editing. There may be individuals purporting to offer certification, but they are not recognized in any formal way.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Why can’t I have the cultural accuracy editor’s name and contact them directly?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Cultural accuracy editors are, in many ways, signing up to be triggered, retraumatized, or hurt on purpose. It can be draining–yet immensely gratifying–work. They also do not have final say over your manuscript, so while they offer their expertise and suggestions, it is still your choice whether or not to incorporate them into your work. In some notable incidents, some authors and publishers used cultural accuracy editors’ names to imply endorsement or to avoid responsibility for harm caused, and that negative experience led many editors to stop engaging in this work. KAA serves as the go-between for the client and the cultural accuracy editor so that both parties feel supported and safe. More often than not, editors are willing to share some identifying information (e.g. first name or initials, general biographical information), and their names often appear in the acknowledgments in books they’ve worked on because clients were so pleased with their work!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Why should I pay for this?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">If your book has already been acquired by a publisher, they should be paying. We are happy to help you make your case.
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Is this only relevant for fiction? I write nonfiction.
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, your nonfiction manuscript can benefit from this service as well. Language choices, accurate histories, cultural appropriation, and other such issues are not fiction-specific.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                I only need a reader to look at one particular side character/side plot. Can I submit just those pages of my book for a lower fee?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">In a word, no. While some exceptions can be made for certain formats or subjects (e.g. one short story in a collection; textbooks that require different experts for different chapters; or revisions of work we’ve already looked at), we almost always require a full manuscript and full fee. This is partly because an extended narrative is not comprehensible if someone is only given random pages from all over the manuscript and partly because authors typically underestimate how much a side character appears or influences a story overall.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                Do you only review text manuscripts?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, we can review illustrations, cover art, video game stills, and other visual materials. We also have editors who specialize in audiobook performance assessment. We can do live consults on Zoom or in person if you’d like guidance on projects that aren’t yet or never will be books, such as IP development, game world building, museum exhibits, curricula, or toys.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Isn’t this censorship?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No. Censorship has a legal definition and is not applicable to private enterprises or platforms. If a government imprisons you for saying something, that is censorship. If a publisher declines to distribute your book, they have made a business decision. Cultural accuracy editors are not censors because they do not have the power to keep your work from being published, nor do they have the final say over your manuscript. Like any other consultant, they are merely making suggestions, while you actually control your work.
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                What do you mean by “marginalized” or “oppressed?”
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">These words are the counterpart to “dominant” social groups. In western Anglophone society, “marginalized” typically applies to people who are nonwhite, people who are not heterosexual, people who are not cisgender, people who are disabled, immigrants/migrants/refugees, and/or people who are not Christian.</div>
+                        </div>
+                    </div>
+                    <!-- <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                Can You Help Me Write a Play?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Our team of writers is well-versed in developing both stageplays and screenplays, and we would be delighted to collaborate with you. As with novelists, we work with playwrights in a flexible, customized way. We can develop material independently that you review and approve, or the process can involve in-depth interviews and one-on-one writing sessions—it’s all up to you!</div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                How Much Interaction Will I Have with My Ghostwriter and Editor?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">You can have as much or as little interaction with your ghostwriter and editor as you’d like! We tailor our process to suit your schedule and your needs. Generally, writers opt to have regular interviews and collaboration sessions with their ghostwriter or editor via phone or video call, as well as ongoing communication by email. In certain instances, it is also possible to arrange for in-person meetings with your ghostwriter or editor. The entire process can be molded to best support you!</div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingEleven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                                I’m Preparing for a Speech and Presentation—Do You Offer Ghostwriting Services for This?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes! While we focus primarily on writing books and other lengthier content, we also have experts on staff with extensive experience in writing speeches, presentations, and articles. In addition to writing content, we can develop presentation aids, such as PowerPoint, Keynote, Prezi, and more. The process will be tailored to your needs and usually includes calls with the writer by phone or video call and ample email communication. Give us a call or send us an email to find out how we can help you..</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-headingTwelve">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                My Book Requires Research—Do Your Ghostwriting Services Include This?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes, our ghostwriting packages can include research services. Whether your book requires basic internet searches or rigorous scholarly research, we have writers on staff who can conduct effective research and synthesize it into your book.</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="faq-column">
+                <div class="accordion accordion-flush" id="accordionFlushExample2">
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading15">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
+                                Is this the same as sensitivity reading?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading15" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Yes, “sensitivity reading,” as well as “targeted expert reading,” “authenticity reading,” and “cultural accuracy editing” all describe the same service–analyzing a manuscript to ensure it is not perpetuating bias, harm, or stereotypes. We chose the term “cultural accuracy and sensitivity editing” at KAA to emphasize how extensive and professional our work is and to underscore our philosophy that this isn’t just about feelings, it’s about representing the world as it is.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading16">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapse16">
+                                Is this the same as fact checking?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse16" class="accordion-collapse collapse" aria-labelledby="flush-heading16" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Cultural accuracy editors will note when they encounter statements that are not factual (and explain them or provide evidence), but for heavily researched or technical documents like textbooks or white papers, you should not consider this a substitute for journalistic fact checking.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading17">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse17" aria-expanded="false" aria-controls="flush-collapse17">
+                                But if [x] people aren’t a monolith, why should I let one person from that group speak for all of them?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse17" class="accordion-collapse collapse" aria-labelledby="flush-heading17" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Nobody speaks for everybody, but a person from a particular culture or group probably knows more about that culture than an outsider. And cultural accuracy editors have made it their job to know their subject not just as an individual but as a scholar, critic, teacher, or analyst, so they are not just speaking from personal experience.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                                If someone is offended by my book, that’s their problem. They’re too sensitive.
+                            </button>
+                        </h2>
+                        <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">There’s a difference between being offended and being harmed. Marginalized groups are so called because they have routinely been disenfranchised, oppressed, discriminated against, and/or misrepresented for generations. That is real harm. “Offended” describes something more particular to a single person’s individual sensibilities, comfort, and history. Our work aims to reduce institutional harm on groups by helping authors identify and rework ingrained stereotypes, oppressive language, and unconscious bias they may not even be aware of. It is an act of social responsibility and good faith to seek input on your book. There is really no difference between engaging a cultural accuracy editor or engaging a doctor, police detective, paleontologist, or art historian to look over your manuscript. It’s all about getting feedback and guidance on specific subjects from subject experts. And by the way–we have editors with expertise in other “hot button” subjects, not just oppression and marginalization. Take a look at our website for a list!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading18">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse18" aria-expanded="false" aria-controls="flush-collapse18">
+                                Why do you charge more than the $250 I have seen recommended in so many articles and websites?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse18" class="accordion-collapse collapse" aria-labelledby="flush-heading18" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Cultural accuracy editors are professionals taking time and drawing on years of academic, professional, and/or lived experience. They should be compensated the same way any other consultant would be paid. The $250 you are accustomed to seeing has been misquoted as a recommended flat rate when it was only ever meant as a floor for shorter works. Our fees are based on industry standards for other types of editing. A few hundred dollars for a novel-length work simply does not adequately cover the hours of work required (while all manuscripts and editors are unique, you could assume roughly 25 hours of work for a 50,000-word manuscript–at $250, that’s a paltry $10 an hour for highly skilled work!) and years of experience qualifying the editor for the work, nor KAA’s administration and quality control.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading14">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                                But there’s a difference between a bigoted character and a bigoted author. I should be allowed to write about CHARACTERS who are offensive.
+                            </button>
+                        </h2>
+                        <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">You are allowed. Cultural accuracy editors are professional readers, not random people off the street. They are highly qualified to analyze and assess literature, and part of their job is to help authors differentiate between unconscious bias and complex, nuanced literary content.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading19">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse19" aria-expanded="false" aria-controls="flush-collapse19">
+                                Talking about race is the real racism. I don’t see color (or gender or disability or ____).
+                            </button>
+                        </h2>
+                        <div id="flush-collapse19" class="accordion-collapse collapse" aria-labelledby="flush-heading19" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">No, it’s not. You’re confusing racism with prejudice. Racism is a system, not an attitude. Claiming not to “see” race or other differences may be meant as a gesture of goodwill, but it serves to erase or disregard very real experiences of discrimination and suggests you don’t believe that people experience the world differently, but of course we all do!</div>
+                        </div>
+                    </div>
+                    <!-- <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading20">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse20" aria-expanded="false" aria-controls="flush-collapse20">
+                                What if I Just Want Feedback and Consultation on My Book?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse20" class="accordion-collapse collapse" aria-labelledby="flush-heading20" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Our editing and consultation services are perfectly suited for writers who are looking to improve their work. We can give input at whatever level of detail you’d like—overarching feedback on the structure and concept of the book, critical review on the flow and transitions, or copy edit the text itself. At your request, we can also address specific issues in our review of your work.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading21">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse21" aria-expanded="false" aria-controls="flush-collapse21">
+                                Once the Ghostwriting Is Complete, Can You Help with Publishing and Marketing?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse21" class="accordion-collapse collapse" aria-labelledby="flush-heading21" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">We know that the publishing industry can be daunting, especially for first-time authors, so we offer consultation and comprehensive support for traditional, hybrid, and self-publishing outlets. Most of our all-inclusive ghostwriting packages include an original and customized query letter or book proposal free of charge. This invaluable marketing tool will be used to promote your book to literary agents and publishers. Not sure how to find a reputable literary agent? We’ve got you covered—we’ll provide you with a list of genre-appropriate agents to whom you can send your query letter or proposal!</div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading22">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse22" aria-expanded="false" aria-controls="flush-collapse22">
+                                I'm Not a Writer, But I Have a Great Idea for a Movie/Novel/etc. Can You Help?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse22" class="accordion-collapse collapse" aria-labelledby="flush-heading22" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Give us a call! We’ll help you bring your story to life—for the screen, the page, or even the stage. We are passionate, and we have the experience you need to help you write your story. We can pair you with a skilled ghostwriter, editor, or consultant to coax your concept out into a fully formed work of art that you’ll be proud to call your own. Don’t let lack of experience hold you back from actualizing a great idea!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading23">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse23" aria-expanded="false" aria-controls="flush-collapse23">
+                                Can You Help Me Write a Play?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse23" class="accordion-collapse collapse" aria-labelledby="flush-heading23" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Our team of writers is well versed in developing both stageplays and screenplays, and we would be delighted to collaborate with you. As with novelists, we work with playwrights in a flexible, customized way. We can develop material independently that you review and approve, or the process can involve in-depth interviews and one-on-one writing sessions—it’s all up to you!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
+
+                        <h2 class="accordion-header accordion-font-size" id="flush-heading24">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse24" aria-expanded="false" aria-controls="flush-collapse24">
+                                I’ve Written a Book Before, But It Wasn’t Successful. What Can You Do to Help Me Succeed?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse24" class="accordion-collapse collapse" aria-labelledby="flush-heading24" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Writing is just like any other skill or art form; practice, feedback, and refinement are the means to improving your abilities. Every writer needs an editor, and even the most brilliant ideas can benefit from a collaborator or two. We can work with you on material that you’ve already created to give detailed, insightful feedback and suggestions on how to take your craft to the next level. We can also build off of the ideas that you’ve already generated and ghostwrite new material for you.
+                                <br><br>
+
+                                We know that the publishing industry can be daunting, especially for first-time authors, so we offer consultation and comprehensive support for traditional, hybrid, and self-publishing outlets. Most of our all-inclusive ghostwriting packages include an original and customized query letter or book proposal free of charge. This invaluable marketing tool will be used to promote your book to literary agents and publishers. Not sure how to find a reputable literary agent? We’ve got you covered—we’ll provide you with a list of genre-appropriate agents to whom you can send your query letter or proposal!
+                                <br><br>
+
+                                Our services are perfectly suited for writers who are looking to improve their work. Our professional staff is ready to give you the tools, motivation, and reflection that you need to succeed.
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-bottom">
+
+        <div class="footer-wrapper">
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold"><a href="./ghostwritingServices.php" class="dropdown-toggle">Book Writing & <br> Ghostwriting</a></p>
+                    <li><a href="./ghostwritingServices.php">Ghostwriting Services</a></li>
+                    <li><a href="./business&LeadershipBooks.php">Business & Leadership <br> Books</a></li>
+                    <li><a href="./autobiographyBooks.php">Memoir/Autobiography <br> Books</a></li>
+                    <li><a href="./health&self-helpBooks.php">Health & Self-Help <br> Books</a></li>
+                    <li><a href="./children'sBooks.php">Children’s Books</a></li>
+                    <li><a href="./generalNonfiction.php">General Nonfiction</a></li>
+                    <li><a href="./fiction.php">Fiction Books</a></li>
+                    <li><a href="./bookProposals.php">Book Proposals</a></li>
+                </ul>
+            </div>
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./bookEditingServices.php">Editing</a></p>
+                    <li><a href="./bookEditingServices.php">Book Editing <br> Services</a></li>
+                    <li><a href="./bookReview&Consultation.php">Book Review & <br> Consultation</a></li>
+                    <li><a href="./culturalAccuracySensitivityEditorialServices.php">Cultural <br> Accuracy & <br> Sensitivity <br> Editorial <br> Services</a></li>
+                </ul>
+            </div>
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold"><a href="./bookCoachingServices.php">Book <br> coaching</a></p>
+                    <li><a href="./bookCoachingServices.php">Book Coaching <br> Services</a></li>
+                </ul>
+            </div>
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./ourTeam.php">About Us</a></p>
+                    <li><a href="./ourTeam.php">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="col-footer">
+                <ul>
+                    <p> 1115 Broadway, 10th Floor<br>
+                        New York, NY 10010
+                    </p>
+                    <li class="phone"><a href="tel: +(123) 456 789">+(123) 456 789</a></li>
+                    <li class="email"><a href="mailto:info@example.com">info@example.com</a></li>
+                </ul>
+                <button type="button" class="ft-btn counter-btn1">CONTACT US</button>
+            </div>
+
+        </div>
+        <div class="footer-end">
+
+            <div class="ftr-wrapper">
+
+                <div class="ftr-logo">
+                    <img src="Assets/Logos/logo_footer_v3.png" alt="">
+                </div>
+
+                <div class="terms">
+                    <p>© 2024 Kevin Anderson & Associates Inc. All Rights Reserved <a href="#" style="color: #47BAC3;">Privacy Policy</a> | <a href="#" style="color: #47BAC3;">Terms & <br> Conditions</a> <br> Built by <a href="#" style="color: #47BAC3;">Target Marketing Digital</a></p>
+                </div>
+
+                <div class="social-icons">
+                    <span><i class="fa-solid fa-phone-flip"></i></span>
+                    <span><i class="fa-regular fa-envelope"></i></span>
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-x-twitter"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-linkedin-in"></i></span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js?v=2" defer></script>
+
+</html>

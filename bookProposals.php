@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .hero-container {
+            background-image: url(Assets/Images/Book-Proposal-Nonfiction.png);
+        }
+
+        .right-container {
+            display: none;
+        }
+
+        .bestselling-publishers {
+            margin-bottom: 30px;
+        }
+
+        .logo-container {
+            margin-bottom: 0px;
+        }
+
+        .navbar {
+            background-color: #f3f3f0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Assets/Logos/logo (1).png" alt="Logo">
+        </div>
+        <button class="hamburger">&#9776;</button>
+        <div class="right-nav">
+            <div class="top-bar">
+                <ul class="bar">
+                    <li><a href="#">1-844-997-4837</a></li>
+                    <!-- <li class="flex-img-txt toggle"><img src="Assets/Logos/united-states.png" alt=""><a href="#"><img src="" alt="">US</a><img id="expand-arrow" src="Assets/Images/expand arrow.png" alt="">
+                        <ul class="dropdown-1">
+                            <li class="flex-img-txt"> <img src="Assets/Logos/united-states.png" alt=""> <a href="#">US</a></li>
+                            <li class="flex-img-txt"> <img src="Assets/Logos/united-kingdom.webp" alt=""> <a href="#">UK</a></li>
+                        </ul>
+
+                    </li> -->
+                    <li><button class="btn1">CONTACT US</button></li>
+                </ul>
+            </div>
+            <div class="bottom-bar">
+                <ul class="bar">
+                    <li class="toggle"><span><a href="./ghostwritingServices.php">BOOK WRITING & GHOST WRITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./ghostwritingServices.php">Ghostwriting Services</a></li>
+                            <li><a href="./business&LeadershipBooks.php">Business & Leadership Books</a></li>
+                            <li><a href="./autobiographyBooks.php">Memoir/Autobiography Books</a></li>
+                            <li><a href="./health&self-helpBooks.php">Health & Self-Help Books</a></li>
+                            <li><a href="./children'sBooks.php">Children’s Books</a></li>
+                            <li><a href="./generalNonfiction.php">General Nonfiction</a></li>
+                            <li><a href="./fiction.php">Fiction Books</a></li>
+                            <li><a href="./bookProposals.php">Book Proposals</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle"><span><a href="./bookEditingServices.php">EDITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./bookEditingServices.php">Book Editing Services</a></li>
+                            <li><a href="./bookReview&Consultation.php">Book Review & Consultation</a></li>
+                            <li><a href="./culturalAccuracySensitivityEditorialServices.php">Cultural Accuracy & Sensitivity Editorial Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle"><span><a href="./bookCoachingServices.php">BOOK COACHING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./bookCoachingServices.php">Book Coaching Services </a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle"><span><a href="./ourTeam.php">ABOUT US</a><span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                        <ul class="dropdown-1">
+                            <li><a href="./ourTeam.php">Our Team</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+    <section class="hero-container">
+        <div class="content-container">
+            <div class="left-container">
+                <div class="content">
+                    <div class="hero-heading">
+                        <h1>Professional Book Proposal</h1>
+                        <!-- <h1>Ghostwriting and Editing </h1> -->
+                        <h1>Services </h1>
+                    </div>
+                    <div class="hero-content">
+                        <p>Want to get a pub deal? Work with #1 New York Times-bestselling writers and Big-5 editors. </p>
+                    </div>
+                    <div class="hero-button">
+                        <button class="counter-btn1">SCHEDULE A CONSULTATION</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="image-grid">
+
+                    <div class="grid-item">
+                        <img src="Assets/Images/the-silver-eyes@2x.webp" alt="Image 1">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <img src="Assets/Images/IN-THE-WOODS_-1.png" alt="Image 2">
+                        <img src="Assets/Images/The-Fall-of-Nu╠Аmenor-by-J.R.R.-Tolkien.png" alt="Image 3">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <img src="Assets/Images/James-Bond_-Casino-Royale-by-Ian-Fleming.png" alt="Image 4">
+                        <img src="Assets/Images/The-Woman-Next-Door-A-Novel-800x1074.png" alt="Image 5">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <img id="bk-img-grid-last" src="Assets/Images/The-Bourne-Deception-by-Robert-Ludlum.png" alt="Image 6">
+                        <div class="arrow-text">
+                            <img src="Assets/Images/left arrow.png" alt="Left Arrow" class="left-arrow-icon">
+                            <p>Titles acquired or edited</p>
+                            <p>by members of our staff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bestselling-publishers">
+
+            <img id="harpercollins" src="Assets/Logos/harpercollins-logo@2x-400x43.webp" alt="">
+
+
+            <img id="penguin" src="Assets/Logos/penguin-random-house-logo@2x.webp" alt="">
+
+
+            <img id="hachette" src="Assets/Logos/1024-px-hachette-books-logo-svg@2x.webp" alt="">
+
+
+            <img id="simonschuster" src="Assets/Logos/ss-logo-2018@2x.webp" alt="">
+
+
+            <img id="macmillan" src="Assets/Logos/macmillan-logotype@2x-400x67.webp" alt="">
+        </div>
+
+    </section>
+    <section class="counter-wrapper">
+        <div class="counter-row">
+            <div class="box">
+
+                <span class="num" data-val="200">000+</span>
+                <p class="text">New York Times <br> Bestsellers</p>
+
+            </div>
+
+            <div class="box">
+
+                <span class="num" data-val="600">000+</span>
+                <p class="text">National <br> Bestsellers</p>
+
+            </div>
+            <div class="box">
+
+                <span class="num" data-val="5000">0000+</span>
+                <p class="text">New Authors <br> Launched</p>
+
+            </div>
+            <div class="box">
+
+                <span class="num" data-val="100">000mil</span>
+                <p class="text">Books <br> Sold</p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- <div class="content-row">
+
+            <div class="content-heading">
+                <h2>Are <span style="text-decoration: underline; font-weight: 500;">you</span> ready to become <br> a published author?</h2>
+            </div>
+
+            <div class="content-para">
+                <p>
+                    Our team of #1 New York Times-bestselling <span style="font-weight: 700;">editors,<br>
+                        ghostwriters</span>, and publishing executives collaborates with<br>
+                    authors to develop powerful books and navigate the entire<br>
+                    publishing journey.
+                </p>
+
+                <button class="counter-btn1" type="button">SCHEDULE A CALL</button>
+            </div>
+        </div> -->
+
+
+    </section>
+    <section class="empower-wrapper">
+        <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/writing2-1200x793.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Book Proposals that Sell
+                    </div>
+                    <div class="empower-content-para">Our team of Big-5 acquisitions editors and #1 New York Times-bestselling writers will collaborate with you to create a powerful book proposal and guide you through the entire publishing industry. <br><br>Meet our Team of bestselling editors and publishing professionals.</div>
+                    <!-- <div class="empower-content-button"><button>Learn More</button></div> -->
+                </div>
+            </div>
+        </div>
+        <div class="empower-heading">
+            <p>What We Do</p>
+        </div>
+        <div class="empower-card-container">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/kaa-team-cropped-scaled.jpeg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Book Proposal Planning</div>
+                    <div class="empower-content-para">Work with our team to plan and write a book proposal that expertly captures your style and vision.</div>
+                    <div class="empower-content-button"><button class="ghostwriting-btn">Learn More</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/5-1200x775.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Book Proposal Writing & Editing
+                    </div>
+                    <div class="empower-content-para">Collaborate closely with a former Big-5 acquisitions editor to build and refine your book proposal and bring it to market.</div>
+                    <div class="empower-content-button"><button class="book-editing-btn">Learn More</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="empower-card-container">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/Screenshot-2023-11-02-at-2.webp" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Bringing Your Book to Market</div>
+                    <div class="empower-content-para">We don’t just write your book proposal, we build and execute a comprehensive publishing strategy to achieve your personal or professional goals. </div>
+                    <div class="empower-content-button"><button class="book-coaching-btn">Learn More</button></div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="empower-card-container row-reverse">
+            <div class="empower-leftdivision">
+                <div class="empower-img">
+                    <img src="Assets/Images/6-1200x775.jpg" alt="">
+                </div>
+            </div>
+            <div class="empower-rightdivision">
+                <div class="empower-content">
+                    <div class="empower-content-heading">Publishing Navigation</div>
+                    <div class="empower-content-para">From book concept to securing the ideal publisher for your book, our publishing executives will guide you every step of the way. We can even help with launch, marketing, and targeting bestseller lists</div>
+                    <div class="empower-content-button"><button>Learn More</button></div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <section class="bestselling-wrapper">
+        <div class="bestselling-content">
+            <p>Our Work</p>
+        </div>
+        <div class="bestselling-books">
+
+            <div class="bookCard-container">
+                <div class="book-img" style="width: 220px;">
+                    <img src="Assets/Images/built-not-born@2x.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>#1 national and WSJ bestseller</p>
+                </div>
+            </div>
+
+            <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/Dunder-Mifflin-1-800x1075.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>NYT bestseller from producers of NBC’s The Office</p>
+                </div>
+            </div>
+            <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/happy-money@2x.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>#1 bestselling author, millions sold</p>
+                </div>
+            </div>
+            <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/crazy-for-the-storm@2x.webp" alt="">
+                </div>
+                <div class="book-content">
+                    <p>NYT bestseller 100,000+ copies sold</p>
+                </div>
+            </div>
+            <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/blue-collar-cash@2x.png" alt="">
+                </div>
+                <div class="book-content">
+                    <p>Six-figure deal with Harper and WSJ bestseller</p>
+                </div>
+            </div>
+            <!-- <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/good-money-800x1076.png" alt="">
+                </div>
+                <div class="book-content">
+                    <p>Wall Street Journal bestseller</p>
+                </div>
+            </div> -->
+        </div>
+        <div class="team-button">
+            <button> <b> See more of our bestselling teams</b></button>
+        </div>
+        <div class="bestselling-authors">
+            <div class="author-container">
+                <div class="author-content">
+                    <p>
+                        Working with Kevin Anderson & Associates is a great experience. Having worked together on multiple books over the years, they’ve proven themselves to be reliable, responsive, and talented. Their team of bestselling authors is a great resource for us and I definitely recommend their services to any author or publisher looking for top-quality writing services with a well-managed process
+                    </p>
+                </div>
+                <div class="author-card">
+                    <div class="author-img">
+                        <img src="Assets/Images/Celeste-Fine.jpg" alt="">
+                    </div>
+                    <div class="author-description">
+                        <h3>Celeste Fine, Park & Fine</h3>
+                        <p>#1-ranked agent on Publishers Marketplace</p>
+                    </div>
+                </div>
+            </div>
+            <div class="author-container">
+                <div class="author-content">
+                    <p>
+                        Working with Kevin Anderson & Associates and their team of bestselling ghostwriters has been a great experience all around. In addition to delivering excellent material in a timely manner, I especially appreciate their ability to adapt to demanding timelines and nonstandard processes. They are truly a classy organization that takes great pride in taking care of their clients. It’s rare to find such professionalism in a writing service. On one particularly demanding project, they really went above and beyond to produce an excellent manuscript within a two-month window—the way he and the organization handled the process was prompt, professional. They have also referred some great authors to us that we ended up signing deals with. I strongly recommend their service to any author, agent, or publisher.
+
+
+                    </p>
+                </div>
+                <div class="author-card">
+                    <div class="author-img" id="brian">
+                        <img src="Assets/Images/Tim_Burgard.webp" alt="">
+                    </div>
+                    <div class="author-description">
+                        <h3>Tim Burgard, HarperCollins</h3>
+                        <p>Senior Acquisitions Editor with HarperCollins Leadership</p>
+                    </div>
+                </div>
+            </div>
+            <div class="author-container">
+                <div class="author-content">
+                    <p>
+                        KAA made my dream of becoming a published author a reality. When I first reached out to them, I knew nothing about the publishing business or how to write a book. KAA’s industry knowledge and insider connections were incredibly valuable in ensuring I had the best team for long-term success. KAA’s team, and very often Kevin himself, were truly my partners and guided me through every step—planning the book, structuring the chapters, positioning the book to my target reader, ensuring the writing was publishable, connecting me directly with the top literary agents in the country, introducing me to the best PR agents and marketers, and finally helping me choose between multiple offers from Big-5 publishers….They are the best in the business and really take care of you–I can’t recommend them highly enough.
+
+                    </p>
+                </div>
+                <div class="author-card">
+                    <div class="author-img">
+                        <img src="Assets/Images/4.jpg" alt="">
+                    </div>
+                    <div class="author-description">
+                        <h3>Ken Rusk</h3>
+                        <p>Author of Wall Street Journal Bestseller Blue Collar Cash (HarperCollins/Dey Street)</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="team-wrapper">
+        <div class="team-heading">
+            <p>Our Team</p>
+            <hr>
+        </div>
+        <div class="team-membercards">
+
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/Stephen-Power-headshot-797x1200.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Stephen S. Power</p>
+                        <p id="designation"><em><b>Executive Editor</b></em></p>
+                        <p>#1 New York Times-bestselling editor and former Big 5 executive editor with 500+ titles</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <div class="member-books">
+                    <img src="Assets/Images/Live-Long-and-What-I-Learned-Along-the-Way.png" alt="">
+                    <img src="Assets/Images/Bernie-Sanders-Where-We-Go-from-Here.png" alt="">
+                    <img src="Assets/Images/On-the-House-A-Washington-Memoir.png" alt="">
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/Jessica-Sindler-headshot-scaled-e1605710512451.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Jessica Sindler</p>
+                        <p id="designation"><em><b>Managing Executive Editor</b></em></p>
+                        <p>#1 New York Times-bestselling editor and former senior editor at Harper and PRH</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <div class="member-books">
+                    <img src="Assets/Images/Daring-Greatly.webp" alt="">
+                    <img src="Assets/Images/Rising-Strong-.webp" alt="">
+                    <img src="Assets/Images/Find-Your-Path.webp" alt="">
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/Screenshot-2023-06-13-091731.webp" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Roger Scholl</p>
+                        <p id="designation"><em><b>Senior Executive Editor</b></em></p>
+                        <p>#1 New York Times bestselling editor and former Big 5 executive editor with 55+ bestselling titles</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <div class="member-books">
+                    <img src="Assets/Images/The-Sleep-Revolution-Transforming-Your-Life-One-Night-at-a-Time-800x1074.webp" alt="">
+                    <img src="Assets/Images/Physics-of-the-Impossible-A-Scientific-Exploration-into-the-World-of-Phasers-Force-Fields-Teleportation-and-Time-Travel-by-Michio-Kaku_-800x1074.webp" alt="">
+                    <img src="Assets/Images/The-Lean-Startup-How-Todays-Entrepreneurs-Use-Continuous-Innovation-to-Create-Radically-Successful-Businesses-by-Eric-Ries-800x1074.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="team-button"><button>Meet our Team</button></div>
+    </section>
+    <section class="why-choose-us">
+        <div class="wcu-heading">
+            <h2>
+                Why Choose <br>
+                Kevin Anderson & Associates?
+            </h2>
+        </div>
+        <div class="columns">
+            <div class="wcu-left-col">
+                <img src="Assets\Images\why-us-row-1.jpg" alt="">
+            </div>
+            <div class="wcu-right-col">
+
+                <div class="row benefits-row-item">
+                    <h2>Track Record of Success</h2>
+
+                    <p> Our book proposals have secured 6- and 7-figure deals and have led to the publication of numerous New York Times-bestselling books.
+                    </p>
+                </div>
+
+                <div class="row benefits-row-item">
+                    <h2>Big-5 Editors</h2>
+                    <p>Work directly with senior acquisitions editors from the Big-5 houses who know exactly what publishers are looking for in a book proposal.
+                    </p>
+                </div>
+
+                <div class="row benefits-row-item">
+                    <h2>Publisher and Agency Connections</h2>
+                    <p>We work directly with the publishing industry’s leading literary agencies and Big-5 publishers. Our firm gives you direct access to an otherwise impenetrable industry.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="columns reversed">
+            <div class="wcu-left-col">
+                <img src="Assets/Images/Low-Time-Commitment.jpg" alt="">
+            </div>
+            <div class="wcu-right-col">
+                <div class="row benefits-row-item2">
+                    <h2>Marketing, Publicity, and Bestseller Strategy</h2>
+                    <p>
+                        We’ve launched hundreds of successful books in multiple genres—we know exactly which marketers, publicists, and bestseller strategies will work best to achieve your publishing goals.
+                    </p>
+                </div>
+                <div class="row benefits-row-item2">
+                    <h2>Publishing Navigation</h2>
+                    <p>
+                        Our white-glove service guides you through every step of the process to ensure an efficient, effective, and rewarding publishing experience.
+                    </p>
+                </div>
+                <div class="row benefits-row-item2">
+                    <h2>#1 Bestselling Ghostwriters</h2>
+                    <p>
+                        Struggle with writing? Work with #1 New York Times-bestselling ghostwriters to capture your style and vision.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sh-topics-wrapper">
+        <div class="sh-content-container">
+            <div class="sh-heading">What’s in a Book Proposal?</div>
+            <hr>
+            <h5>Book proposals vary in size and structure, though most contain some of the following sections.</h5>
+            <div class="sh-list">
+                <ul class="custom-list">
+                    <li><b>Overview:</b> An executive summary of your book and why people would want to read it.</li>
+                    <li><b>Author Bio:</b> Who you are and why you’re the right author for this book. </li>
+                    <li> <b>Comparable Titles:</b> An evaluation of similar titles and authors, how well those books sold, and why your book fills a void in the market.</li>
+                </ul>
+                <ul class="custom-list">
+                    <li><b>Annotated Outline:</b> Captivating chapter descriptions</li>
+                    <li><b>Author Platform and Marketing Strategy:</b> A detailed analysis of your ability and strategy to sell books.</li>
+                    <li><b>Sample Chapters (optional)</b></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="gw-experience-wrapper">
+        <div class="gw-experience-container">
+            <div class="experience-content">
+                <div class="experience-content-heading">
+                    <h1>The Book Proposal
+                        Writing Process</h1>
+                    <hr>
+                </div>
+                <!-- <div class="experience-content-text">
+                    <p>We carefully customize our ghostwriting process to meet your specific needs <br> and publishing goals. The process below describes a standard ghostwriting experience.</p>
+                </div> -->
+            </div>
+            <div class="experience-accordians">
+                <div class="container my-5">
+                    <div class="accordion-item" id="accordion-item-1">
+                        <input type="checkbox" id="accordion1" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion1">
+                            <span class="accordion-number">01</span>
+                            <span class="accordion-title">
+                                Discovery Discussions</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            We learn about your publishing goals and brainstorm how to build a book and publishing strategy that will accomplish them.
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion2" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion2">
+                            <span class="accordion-number">02</span>
+                            <span class="accordion-title">
+                                Strategy Sessions</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Collaborative multi-day, in-person (optional), in-depth discussions on the book’s positioning, promise to the reader, structure, content, marketability, competitive analysis, author platform, and publishing strategy. Your team typically includes a Big-5 editor and/or a bestselling writer.
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion3" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion3">
+                            <span class="accordion-number">03</span>
+                            <span class="accordion-title">
+                                Table of Contents</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            We draft and finalize a detailed table of contents with chapter descriptions.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion4" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion4">
+                            <span class="accordion-number">04</span>
+                            <span class="accordion-title">
+                                Writing the Book Proposal</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            We will write (or edit, if you prefer) the book proposal in close collaboration with you.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion5" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion5">
+                            <span class="accordion-number">05</span>
+                            <span class="accordion-title">
+
+                                Editing and Review</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            An additional editor reviews, assesses, and edits the book proposal.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion6" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion6">
+                            <span class="accordion-number">06</span>
+                            <span class="accordion-title">
+
+                                Targeting Agents and Publishers</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            We work closely with agents and publishers and can ensure your proposal lands in the right hands.
+                        </div>
+                    </div>
+                    <!-- <div class="accordion-item">
+                        <input type="checkbox" id="accordion7" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion7">
+                            <span class="accordion-number">07</span>
+                            <span class="accordion-title">
+                                Finding the Best Home for Your Book</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Did you know less than 0.1% of people who want to write a book actually publish one? Not at KAA. Whether you want to break into traditional publishing, collaborate with a great hybrid publisher, or make the most of what self-publishing offers, we’ll guide you every step of the way. At KAA, we have former literary agents on staff, partnerships with dozens of publishers, and relationships with the most seasoned book marketers and PR teams to launch your book. We won’t just help you write your book, we’ll ensure you have a remarkable publishing experience.
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="location-wrapper">
+        <h4>Our offices are in New York, Nashville, and Los Angeles.</h4>
+        <h4>Can’t get to us? <b>We can bring our team to you.</b></h4>
+    </section>
+    <section class="kaa">
+        <div class="heading">
+            <h2>Let’s Start Building Your Book Proposal</h2>
+        </div>
+        <div class="text">
+            <p>
+                Our collaborative book proposal-writing process will give your book the best <br> possible chance of attracting a literary agent and securing a publishing deal.
+            </p>
+        </div>
+
+        <!-- <div class="text">
+            <p>
+                At Kevin Anderson & Associates, we’ll collaborate closely with you to absorb your <br> story, plot, characters, and turn the figments of your imagination <br> into a publish-worthy book.
+            </p>
+        </div>
+
+        <div class="text">
+            <p>
+                Call us to discuss your book idea and begin your journey toward becoming a <br> published author.
+            </p>
+        </div> -->
+
+        <div class="btn">
+            <button class="counter-btn1">SCHEDULE A CONSULTATION</button>
+        </div>
+    </section>
+    <footer class="footer-bottom">
+
+        <div class="footer-wrapper">
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold"><a href="./ghostwritingServices.php" class="dropdown-toggle">Book Writing & <br> Ghostwriting</a></p>
+                    <li><a href="./ghostwritingServices.php">Ghostwriting Services</a></li>
+                    <li><a href="./business&LeadershipBooks.php">Business & Leadership <br> Books</a></li>
+                    <li><a href="./autobiographyBooks.php">Memoir/Autobiography <br> Books</a></li>
+                    <li><a href="./health&self-helpBooks.php">Health & Self-Help <br> Books</a></li>
+                    <li><a href="./children'sBooks.php">Children’s Books</a></li>
+                    <li><a href="./generalNonfiction.php">General Nonfiction</a></li>
+                    <li><a href="./fiction.php">Fiction Books</a></li>
+                    <li><a href="./bookProposals.php">Book Proposals</a></li>
+                </ul>
+            </div>
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./bookEditingServices.php">Editing</a></p>
+                    <li><a href="./bookEditingServices.php">Book Editing <br> Services</a></li>
+                    <li><a href="./bookReview&Consultation.php">Book Review & <br> Consultation</a></li>
+                    <li><a href="./culturalAccuracySensitivityEditorialServices.php">Cultural <br> Accuracy & <br> Sensitivity <br> Editorial <br> Services</a></li>
+                </ul>
+            </div>
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold"><a href="./bookCoachingServices.php">Book <br> coaching</a></p>
+                    <li><a href="./bookCoachingServices.php">Book Coaching <br> Services</a></li>
+                </ul>
+            </div>
+
+            <div class="col-footer">
+                <ul>
+                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./ourTeam.php">About Us</a></p>
+                    <li><a href="./ourTeam.php">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="col-footer">
+                <ul>
+                    <p> 1115 Broadway, 10th Floor<br>
+                        New York, NY 10010
+                    </p>
+                    <li class="phone"><a href="tel: +(123) 456 789">+(123) 456 789</a></li>
+                    <li class="email"><a href="mailto:info@example.com">info@example.com</a></li>
+                </ul>
+                <button type="button" class="ft-btn counter-btn1">CONTACT US</button>
+            </div>
+
+        </div>
+        <div class="footer-end">
+
+            <div class="ftr-wrapper">
+
+                <div class="ftr-logo">
+                    <img src="Assets/Logos/logo_footer_v3.png" alt="">
+                </div>
+
+                <div class="terms">
+                    <p>© 2024 Kevin Anderson & Associates Inc. All Rights Reserved <a href="#" style="color: #47BAC3;">Privacy Policy</a> | <a href="#" style="color: #47BAC3;">Terms & <br> Conditions</a> <br> Built by <a href="#" style="color: #47BAC3;">Target Marketing Digital</a></p>
+                </div>
+
+                <div class="social-icons">
+                    <span><i class="fa-solid fa-phone-flip"></i></span>
+                    <span><i class="fa-regular fa-envelope"></i></span>
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-x-twitter"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-linkedin-in"></i></span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js?v=2" defer></script>
+
+</html>
