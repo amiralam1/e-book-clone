@@ -49,7 +49,7 @@
     });
   });
   document.querySelector('.logo').addEventListener('click', function() {
-    window.location.href = 'home.php';
+    window.location.href = 'home.html';
 });
 
 /* =========================================================================================== */
@@ -128,19 +128,19 @@ document.addEventListener('DOMContentLoaded', function() {
   addRedirectListener('#hachette', 'https://www.hachettebookgroup.com/');
   addRedirectListener('#simonschuster', 'https://www.simonandschuster.com/');
   addRedirectListener('#macmillan', 'https://us.macmillan.com/');
-  addRedirectListener('.team-button', 'ourTeam.php'); // This will apply to all elements with class 'team-button'
-  addRedirectListener('.ghostwriting-btn', 'ghostwritingServices.php');
-  addRedirectListener('.book-editing-btn', 'bookEditingServices.php');
-  addRedirectListener('.book-coaching-btn', 'bookCoachingServices.php');
-  addRedirectListener('.book-proposal-btn', 'bookProposals.php');
-  addRedirectListener('.member-description', 'ourTeam.php'); // Applies to all elements with 'member-description' class
-  addRedirectListener('.autobiography', 'autobiographyBooks.php'); // Applies to all elements with 'member-description' class
-  addRedirectListener('.selfhelp', 'health&self-helpBooks.php'); // Applies to all elements with 'member-description' class
-  addRedirectListener('.business', 'business&LeadershipBooks.php'); // Applies to all elements with 'member-description' class
-  addRedirectListener('.fiction', 'fiction.php'); // Applies to all elements with 'member-description' class
-  addRedirectListener('.nonfiction', 'generalNonfiction.php'); // Applies to all elements with 'member-description' class
-  addRedirectListener('.childrens-books', 'children\'sBooks.php'); // Applies to all elements with 'member-description' class
-  addRedirectListener('#team-btn', 'ourTeam.php');
+  addRedirectListener('.team-button', 'ourTeam.html'); // This will apply to all elements with class 'team-button'
+  addRedirectListener('.ghostwriting-btn', 'ghostwritingServices.html');
+  addRedirectListener('.book-editing-btn', 'bookEditingServices.html');
+  addRedirectListener('.book-coaching-btn', 'bookCoachingServices.html');
+  addRedirectListener('.book-proposal-btn', 'bookProposals.html');
+  addRedirectListener('.member-description', 'ourTeam.html'); // Applies to all elements with 'member-description' class
+  addRedirectListener('.autobiography', 'autobiographyBooks.html'); // Applies to all elements with 'member-description' class
+  addRedirectListener('.selfhelp', 'health&self-helpBooks.html'); // Applies to all elements with 'member-description' class
+  addRedirectListener('.business', 'business&LeadershipBooks.html'); // Applies to all elements with 'member-description' class
+  addRedirectListener('.fiction', 'fiction.html'); // Applies to all elements with 'member-description' class
+  addRedirectListener('.nonfiction', 'generalNonfiction.html'); // Applies to all elements with 'member-description' class
+  addRedirectListener('.childrens-books', 'children\'sBooks.html'); // Applies to all elements with 'member-description' class
+  addRedirectListener('#team-btn', 'ourTeam.html');
 
 });
 

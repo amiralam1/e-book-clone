@@ -11,24 +11,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
-        .hero-container {
-            background-image: url(Assets/Images/Book-Review.png);
+        .bestselling-books {
+            gap: 140px;
         }
 
-        .right-container {
-            display: none;
+        /* .bookCard-container {
+            width: auto;
         }
 
-        .bestselling-publishers {
-            margin-bottom: 30px;
+        .book-img {
+            width: 370px;
+            left: -35px;
         }
 
-        .logo-container {
-            margin-bottom: 0px;
-        }
+        .book-content {
+            width: 180%;
+        } */
+        @media (max-width:480px) {
 
-        .navbar {
-            background-color: #f0f0f0;
+            #book-img1 {
+                width: 288px !important;
+                left: 37px;
+                top: 28px;
+            }
+
+            #book-content1 {
+                width: 100% !important;
+            }
         }
     </style>
 </head>
@@ -55,33 +64,33 @@
             </div>
             <div class="bottom-bar">
                 <ul class="bar">
-                    <li class="toggle"><span><a href="./ghostwritingServices.php">BOOK WRITING & GHOST WRITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                    <li class="toggle"><span><a href="./ghostwritingServices.html">BOOK WRITING & GHOST WRITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
                         <ul class="dropdown-1">
-                            <li><a href="./ghostwritingServices.php">Ghostwriting Services</a></li>
-                            <li><a href="./business&LeadershipBooks.php">Business & Leadership Books</a></li>
-                            <li><a href="./autobiographyBooks.php">Memoir/Autobiography Books</a></li>
-                            <li><a href="./health&self-helpBooks.php">Health & Self-Help Books</a></li>
-                            <li><a href="./children'sBooks.php">Children’s Books</a></li>
-                            <li><a href="./generalNonfiction.php">General Nonfiction</a></li>
-                            <li><a href="./fiction.php">Fiction Books</a></li>
-                            <li><a href="./bookProposals.php">Book Proposals</a></li>
+                            <li><a href="./ghostwritingServices.html">Ghostwriting Services</a></li>
+                            <li><a href="./business&LeadershipBooks.html">Business & Leadership Books</a></li>
+                            <li><a href="./autobiographyBooks.html">Memoir/Autobiography Books</a></li>
+                            <li><a href="./health&self-helpBooks.html">Health & Self-Help Books</a></li>
+                            <li><a href="./children'sBooks.html">Children’s Books</a></li>
+                            <li><a href="./generalNonfiction.html">General Nonfiction</a></li>
+                            <li><a href="./fiction.html">Fiction Books</a></li>
+                            <li><a href="./bookProposals.html">Book Proposals</a></li>
                         </ul>
                     </li>
-                    <li class="toggle"><span><a href="./bookEditingServices.php">EDITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                    <li class="toggle"><span><a href="./bookEditingServices.html">EDITING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
                         <ul class="dropdown-1">
-                            <li><a href="./bookEditingServices.php">Book Editing Services</a></li>
-                            <li><a href="./bookReview&Consultation.php">Book Review & Consultation</a></li>
-                            <li><a href="./culturalAccuracySensitivityEditorialServices.php">Cultural Accuracy & Sensitivity Editorial Services</a></li>
+                            <li><a href="./bookEditingServices.html">Book Editing Services</a></li>
+                            <li><a href="./bookReview&Consultation.html">Book Review & Consultation</a></li>
+                            <li><a href="./culturalAccuracySensitivityEditorialServices.html">Cultural Accuracy & Sensitivity Editorial Services</a></li>
                         </ul>
                     </li>
-                    <li class="toggle"><span><a href="./bookCoachingServices.php">BOOK COACHING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                    <li class="toggle"><span><a href="./bookCoachingServices.html">BOOK COACHING</a> <span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
                         <ul class="dropdown-1">
-                            <li><a href="./bookCoachingServices.php">Book Coaching Services </a></li>
+                            <li><a href="./bookCoachingServices.html">Book Coaching Services </a></li>
                         </ul>
                     </li>
-                    <li class="toggle"><span><a href="./ourTeam.php">ABOUT US</a><span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
+                    <li class="toggle"><span><a href="./ourTeam.html">ABOUT US</a><span> <img class="arrow-icon" src="Assets/Images/expand arrow.png" alt=""></span></span>
                         <ul class="dropdown-1">
-                            <li><a href="./ourTeam.php">Our Team</a> </li>
+                            <li><a href="./ourTeam.html">Our Team</a> </li>
                         </ul>
                     </li>
                 </ul>
@@ -95,13 +104,12 @@
             <div class="left-container">
                 <div class="content">
                     <div class="hero-heading">
-                        <h1>Book Review and</h1>
+                        <h1>Fiction Ghostwriting</h1>
                         <!-- <h1>Ghostwriting and Editing </h1> -->
-                        <h1>Consultation Services
-                        </h1>
+                        <h1>Services </h1>
                     </div>
                     <div class="hero-content">
-                        <p>Get feedback and publishing consultation from Big-5 publishing executives and acquisitions editors </p>
+                        <p>Work with New York Times-bestselling writers and editors from Big-5 publishers to write your novel and reach your readers. </p>
                     </div>
                     <div class="hero-button">
                         <button class="counter-btn1">SCHEDULE A CONSULTATION</button>
@@ -148,22 +156,6 @@
             <div class="hero-logo"><img src="Assets/Logos/fox-news-logo.jpg" alt=""></div>
             <div class="hero-logo"><img src="Assets/Logos/New_York_Times_logo.jpg" alt=""></div>
             <div class="hero-logo"><img src="Assets/Logos/fast-company-logo-vector.svg" alt=""></div>
-        </div>
-        <div class="bestselling-publishers">
-
-            <img id="harpercollins" src="Assets/Logos/harpercollins-logo@2x-400x43.webp" alt="">
-
-
-            <img id="penguin" src="Assets/Logos/penguin-random-house-logo@2x.webp" alt="">
-
-
-            <img id="hachette" src="Assets/Logos/1024-px-hachette-books-logo-svg@2x.webp" alt="">
-
-
-            <img id="simonschuster" src="Assets/Logos/ss-logo-2018@2x.webp" alt="">
-
-
-            <img id="macmillan" src="Assets/Logos/macmillan-logotype@2x-400x67.webp" alt="">
         </div>
     </section>
     <section class="counter-wrapper">
@@ -218,155 +210,65 @@
 
 
     </section>
-    <section class="empower-wrapper">
-        <div class="empower-card-container row-reverse">
-            <div class="empower-leftdivision">
-                <div class="empower-img">
-                    <img src="Assets/Images/kaa-team-cropped-scaled.jpeg" alt="">
-                </div>
-            </div>
-            <div class="empower-rightdivision">
-                <div class="empower-content">
-                    <div class="empower-content-heading">Let’s Elevate Your Book
-                    </div>
-                    <div class="empower-content-para">
-                        <div class="sh-list" style="display:flex; flex-direction: column; justify-content:center; align-items:center;">
-                            <p style="color: black;font-size: larger; margin-right: 60px;"> You’ve written a draft and now you’re wondering if:</p>
-                            <ul class="custom-list">
-                                <li><b>Overview:</b> An executive summary of your book and why people would want to read it.</li>
-                                <li><b>Author Bio:</b> Who you are and why you’re the right author for this book. </li>
-                                <li> <b>Comparable Titles:</b> An evaluation of similar titles and authors, how well those books sold, and why your book fills a void in the market.</li>
-                            </ul>
-                            <p><a href="" style="color: black;font-size: larger; margin-right: 60px;color: black; text-decoration:none; text-decoration:underline; text-decoration-color: #4ebdc5">Choose Your Editor from Our Team</a></p>
-                            <!-- <ul class="custom-list">
-                                <li><b>Annotated Outline:</b> Captivating chapter descriptions</li>
-                                <li><b>Author Platform and Marketing Strategy:</b> A detailed analysis of your ability and strategy to sell books.</li>
-                                <li><b>Sample Chapters (optional)</b></li>
-                            </ul> -->
-                        </div>
-                    </div>
-                    <div class="empower-content-button">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="empower-heading">
-            <p>What We Do</p>
-        </div>
-        <div class="empower-card-container">
-            <div class="empower-leftdivision">
-                <div class="empower-img">
-                    <img src="Assets/Images/Culturally-Sensitive-Publishing-Strategy-for-Backlist-1.jpg" alt="">
-                </div>
-            </div>
-            <div class="empower-rightdivision">
-                <div class="empower-content">
-                    <div class="empower-content-heading">Critical Review and Analysis</div>
-                    <div class="empower-content-para">Collaborate one-on-one with a former Big-5 acquisitions editor to receive feedback on all aspects of your manuscript’s flow, structure, cohesiveness, arc, marketability, target audience, and readability, as well as any other issues that may affect the quality of the book.</div>
-                    <div class="empower-content-button"><button>Schedule Consultation</button></div>
-                </div>
-            </div>
-        </div>
-        <div class="empower-card-container row-reverse">
-            <div class="empower-leftdivision">
-                <div class="empower-img">
-                    <img src="Assets/Images/6-1200x775.jpg" alt="">
-                </div>
-            </div>
-            <div class="empower-rightdivision">
-                <div class="empower-content">
-                    <div class="empower-content-heading">Line Editing
-                    </div>
-                    <div class="empower-content-para">With your publishing goals in mind, work with an editor that understands your book and will provide editorial support for grammar, punctuation, readability, flow, diction, and syntax, as well as minor rewriting and restructuring on the phrasal level.</div>
-                    <div class="empower-content-button"><button>Schedule Consultation</button></div>
-                </div>
-            </div>
-        </div>
-        <div class="empower-card-container">
-            <div class="empower-leftdivision">
-                <div class="empower-img">
-                    <img src="Assets/Images/pexels-cottonbro-studio-4861360-1200x800.jpg" alt="">
-                </div>
-            </div>
-            <div class="empower-rightdivision">
-                <div class="empower-content">
-                    <div class="empower-content-heading">Developmental Editing</div>
-                    <div class="empower-content-para">Work one-one-one with an editor suited for your type of book and receive substantive editing and rewriting, as well as detailed critical feedback on structure, coherence, concept, positioning, audience, and marketability.With your publishing goals in mind, work with an editor that understands your book and will provide editorial support for grammar, punctuation, readability, flow, diction, and syntax, as well as minor rewriting and restructuring on the phrasal level. </div>
-                    <div class="empower-content-button"><button>Schedule Consultation</button></div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="empower-card-container row-reverse">
-            <div class="empower-leftdivision">
-                <div class="empower-img">
-                    <img src="Assets/Images/6-1200x775.jpg" alt="">
-                </div>
-            </div>
-            <div class="empower-rightdivision">
-                <div class="empower-content">
-                    <div class="empower-content-heading">Publishing Navigation</div>
-                    <div class="empower-content-para">From book concept to securing the ideal publisher for your book, our publishing executives will guide you every step of the way. We can even help with launch, marketing, and targeting bestseller lists</div>
-                    <div class="empower-content-button"><button>Learn More</button></div>
-                </div>
-            </div>
-        </div> -->
-    </section>
     <section class="services-wrapper">
         <div class="service-heading">
-            <p>Our Book-Editing Options Include</p>
+            <p>Our Comprehensive Writing Services Include</p>
         </div>
         <div class="services-icons">
             <div class="services-icons-rows">
                 <div class="service-card bg-lightblue">
                     <div class="service-card-img"><img src="Assets/Logos/Book-Planing.svg" alt=""></div>
-                    <div class="service-card-name">Fiction & Non-fiction Editing</div>
+                    <div class="service-card-name">Book Planning</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-card-img"><img src="Assets/Logos/Ghostwriting.svg" alt=""></div>
-                    <div class="service-card-name">Children's Book Editing</div>
+                    <div class="service-card-img"><a href="./ghostwritingServices.html"><img src="Assets/Logos/Ghostwriting.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="./ghostwritingServices.html">Ghostwriting</a></div>
                 </div>
                 <div class="service-card bg-lightblue">
-                    <div class="service-card-img"><img src="Assets/Logos/Editing.svg" alt=""></div>
-                    <div class="service-card-name">Tailored Strategy</div>
+                    <div class="service-card-img"><a href="./bookEditingServices.html"><img src="Assets/Logos/Editing.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="./bookEditingServices.html">Editing</a></div>
                 </div>
                 <div class="service-card">
-                    <div class="service-card-img"><img src="Assets/Logos/Book-Proposals.svg" alt=""></div>
-                    <div class="service-card-name">Book Review<br>Consultation</div>
+                    <div class="service-card-img"><a href="./bookProposals.html"><img src="Assets/Logos/Book-Proposals.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="./bookProposals.html">Book Proposals <br>and Queries</a></div>
                 </div>
                 <div class="service-card bg-lightblue">
                     <div class="service-card-img"><img src="Assets/Logos/Publishing-Navigation.svg " alt=""></div>
-                    <div class="service-card-name">Critical Review & Analysis</div>
+                    <div class="service-card-name">Publishing
+                        Navigation</div>
                 </div>
                 <div class="service-card">
                     <div class="service-card-img"><img src="Assets/Logos/Bestseller-Targeting.svg" alt=""></div>
-                    <div class="service-card-name">Developmental Editing</div>
+                    <div class="service-card-name">Bestseller
+                        List Targeting</div>
                 </div>
             </div>
             <div class="services-icons-rows">
                 <div class="service-card">
                     <div class="service-card-img"><img src="Assets/Logos/Beta-Reader-Testing.svg" alt=""></div>
-                    <div class="service-card-name">Line Editing
+                    <div class="service-card-name">Beta Reader
                         Testing</div>
                 </div>
                 <div class="service-card bg-lightblue">
-                    <div class="service-card-img"><img src="Assets/Logos/Book-Coaching.svg" alt=""></div>
-                    <div class="service-card-name">Copy Editing</div>
+                    <div class="service-card-img"><a href="./bookCoachingServices.html"><img src="Assets/Logos/Book-Coaching.svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="./bookCoachingServices.html">Book Coaching</a></div>
                 </div>
                 <div class="service-card">
                     <div class="service-card-img"><img src="Assets/Logos/Pub-and-Marketing-Strategy.svg" alt=""></div>
-                    <div class="service-card-name">Ghostwriting & <br>Rewriting</div>
+                    <div class="service-card-name">Publishing and <br>Marketing Strategy</div>
                 </div>
                 <div class="service-card bg-lightblue">
                     <div class="service-card-img"><img src="Assets/Logos/Agent-Introductions.svg" alt=""></div>
-                    <div class="service-card-name">Cultural Accuracy</div>
+                    <div class="service-card-name">Agent
+                        Introductions</div>
                 </div>
                 <div class="service-card">
                     <div class="service-card-img"><img src="Assets/Logos/Direct-Submissions-to-Publishers.svg" alt=""></div>
-                    <div class="service-card-name">Publishing Navigation</div>
+                    <div class="service-card-name">Direct Submissions <br> to Publishers</div>
                 </div>
                 <div class="service-card bg-lightblue">
-                    <div class="service-card-img"><img src="Assets/Logos/Beta-Reader-Testing (1).svg" alt=""></div>
-                    <div class="service-card-name">Direct Submissions to <br> Publishers</div>
+                    <div class="service-card-img"><a href="./culturalAccuracySensitivityEditorialServices.html"><img src="Assets/Logos/Beta-Reader-Testing (1).svg" alt=""></a></div>
+                    <div class="service-card-name"><a href="./culturalAccuracySensitivityEditorialServices.html">Cultural Accuracy <br> Editing</a></div>
                 </div>
 
             </div>
@@ -377,51 +279,48 @@
         </div>
         <div class="bestselling-books">
 
-
-
             <div class="bookCard-container">
-                <div class="book-img">
-                    <img src="Assets/Images/happy-money@2x.webp" alt="">
+                <div class="book-img" style="width: 220px;">
+                    <img src="Assets/Images/crazy-for-the-storm@2x.webp" alt="">
                 </div>
                 <div class="book-content">
-                    <p>#1 bestselling author</p>
+                    <p>New York Times bestseller, 100K+ sold</p>
                 </div>
             </div>
             <div class="bookCard-container">
                 <div class="book-img" style="width: 220px;">
-                    <img src="Assets/Images/built-not-born@2x.webp" alt="">
+                    <img src="Assets/Images/Bar-Maid-800x1074.png" alt="">
                 </div>
                 <div class="book-content">
-                    <p>#1 national and WSJ bestseller</p>
+                    <p>USA TODAY bestseller</p>
                 </div>
             </div>
-            <div class="bookCard-container">
-                <div class="book-img" style="width: 220px;">
-                    <img src="Assets/Images/the-silver-eyes@2x.webp" alt="">
+            <div class="bookCard-container" style="width: auto;">
+                <div class="book-img" id="book-img1" style=" width: 370px;">
+                    <img src="Assets/Images/The-Silver-Eyes-Five-Nights-At-Freddys-1-800x635.png" alt="">
                 </div>
-                <div class="book-content">
+                <div class="book-content" id="book-content1" style="width: 140%;">
                     <p>#1
-                        New York Times bestseller</p>
+                        New York Times bestseller, million+ sold</p>
+                </div>
+            </div>
+            <!-- <div class="bookCard-container">
+                <div class="book-img">
+                    <img src="Assets/Images/Glow-15-800x1074.png" alt="">
+                </div>
+                <div class="book-content">
+                    <p>New York Times
+                        bestseller</p>
                 </div>
             </div>
             <div class="bookCard-container">
                 <div class="book-img">
-                    <img src="Assets/Images/Dunder-Mifflin-1-800x1075.webp" alt="">
+                    <img src="Assets/Images/blue-collar-cash@2x.png" alt="">
                 </div>
                 <div class="book-content">
-                    <p>NYT bestseller by producers of NBC’s The Officer</p>
+                    <p>Six-figure deal with Harper and WSJ bestseller</p>
                 </div>
-            </div>
-
-            <div class="bookCard-container">
-                <div class="book-img">
-                    <img src="Assets/Images/good-money-800x1076.png" alt="">
-                </div>
-                <div class="book-content">
-                    <p>NYT bestseller 100,000+ copies sold</p>
-                </div>
-            </div>
-
+            </div> -->
             <!-- <div class="bookCard-container">
                 <div class="book-img">
                     <img src="Assets/Images/good-money-800x1076.png" alt="">
@@ -435,104 +334,70 @@
             <button> <b> See more of our bestselling teams</b></button>
         </div>
         <div class="bestselling-authors">
-
             <div class="author-container">
                 <div class="author-content">
                     <p>
-                        I have worked with Kevin many times over the years for my memoir, book proposal, and articles. With each interaction, Kevin and his team provided excellent editorial services. His firm offers a diverse pool of editors to choose from, which enabled me to hone the type of service I was looking for. Each editor was concise and insightful, giving me constructive notes that really allowed me to take my work to the next level. I felt that they were in for the long haul because Kevin was always there for me when I had follow up questions. A great experience across the board.
+                        It has been a pleasure working with Kevin Anderson and his team of talented writers and editors—I highly recommend them. Having collaborated together on over a dozen manuscripts since 2015, including the original Five Nights at Freddy’s series, I can attest to their responsiveness, dedication to excellence, and commitment to keeping their clients happy. The ability to work with multiple gifted writers concurrently has been especially valuable to me.
+
 
                     </p>
                 </div>
                 <div class="author-card">
                     <div class="author-img" id="brian">
-                        <img src="Assets/Images/Norman-Ollestad-e1598460823845.jpg" alt="">
+                        <img src="Assets/Images/Scott-Cawthon.jpg" alt="">
                     </div>
                     <div class="author-description">
-                        <h3>Norman Ollestad</h3>
-                        <p>New York Times-Bestselling Author of Crazy For the Storm—Over 100,000 Copies Sold</p>
+                        <h3>Scott Cawthon</h3>
+                        <p>#1 New York Times-bestselling author
+                            A combined 9 million copies sold!</p>
                     </div>
                 </div>
             </div>
             <div class="author-container">
                 <div class="author-content">
                     <p>
-                        In addition to delivering excellent material in a timely manner, I especially appreciate their ability to adapt to demanding timelines and nonstandard processes. They are truly a classy organization that takes great pride in taking care of their clients. It’s rare to find such professionalism in a writing service. On one particularly demanding project, they really went above and beyond to produce an excellent manuscript within a two-month window—the way he and the organization handled the process was prompt, professional.
+                        I really enjoy working with Kevin Anderson & Associates. They have a great team of writers and are very collaborative, responsive, and professional. Kevin’s team has been quick to provide a range of top-quality writers who they feel are ideal for the novels we want to have written. I am currently working with Kira Breed-Wrisley, a great writer and listener, and I have been so comfortable working with her.
+
+
                     </p>
                 </div>
                 <div class="author-card">
                     <div class="author-img">
-                        <img src="Assets/Images/Tim_Burgard.webp" alt="">
+                        <img src="Assets/Images/Debra-Dorfman.jpg" alt="">
                     </div>
                     <div class="author-description">
-                        <h3>Tim Burgard</h3>
-                        <p>Senior Acquisitions Editor with HarperCollins Leadership</p>
+                        <h3>Debra Dorfman, VP & Publisher, Scholastic</h3>
+                        <p>Former President & Publisher at Penguin</p>
                     </div>
                 </div>
             </div>
             <div class="author-container">
                 <div class="author-content">
                     <p>
-                        Thanks to the tireless support of Kevin Anderson & Associates, especially Eric Spitznagel, who helped us piece together this jigsaw puzzle of interviews. Your prose is as beautiful as your soul.
+                        Working with Kevin Anderson & Associates is a great experience. Having worked together on multiple books over the years, they’ve proven themselves to be reliable, responsive, and talented. Their team of bestselling authors is a great resource for us and I definitely recommend their services to any author or publisher looking for top-quality writing services with a well-managed process
                     </p>
                 </div>
                 <div class="author-card">
                     <div class="author-img">
-                        <img src="Assets/Images/4.jpg" alt="">
+                        <img src="Assets/Images/Celeste-Fine.jpg" alt="">
                     </div>
                     <div class="author-description">
-                        <h3>Brian Baumgartner and Ben Silverman</h3>
-                        <p>Authors of New York Times bestseller, Welcome to Dunder Mifflin: The Ultimate Oral History of The Office</p>
+                        <h3>Celeste Fine, Park & Fine</h3>
+                        <p>Nation’s #1 literary agent (Publishers Marketplace) with a reputation for negotiating 6- and 7-figure deals</p>
                     </div>
                 </div>
             </div>
     </section>
     <section class="team-wrapper">
         <div class="team-heading">
-            <p>Your Bestselling Editors</p>
+            <p>Our Team</p>
             <hr>
         </div>
         <div class="team-membercards">
-
-            <div class="member-card">
-                <div class="member-description">
-
-                    <div class="member-image"><img src="Assets/Images/Stephen-Power-headshot-797x1200.jpg" alt=""></div>
-                    <div class="member-bio">
-                        <p id="name">Stephen S. Power</p>
-                        <p id="designation"><em><b>Executive Editor</b></em></p>
-                        <p>#1 New York Times-bestselling editor and former Big 5 executive editor with 500+ titles</p>
-                        <h2 id="more">READ FULL BIO</h2>
-                    </div>
-
-                </div>
-                <div class="member-books">
-                    <img src="Assets/Images/Live-Long-and-What-I-Learned-Along-the-Way.png" alt="">
-                    <img src="Assets/Images/Bernie-Sanders-Where-We-Go-from-Here.png" alt="">
-                    <img src="Assets/Images/On-the-House-A-Washington-Memoir.png" alt="">
-                </div>
-            </div>
             <div class="member-card">
                 <div class="member-description">
 
                     <div class="member-image"><img src="Assets/Images/Jessica-Sindler-headshot-scaled-e1605710512451.jpg" alt=""></div>
-                    <div class="member-bio">
-                        <p id="name">Jessica Sindler</p>
-                        <p id="designation"><em><b>Managing Executive Editor</b></em></p>
-                        <p>#1 New York Times-bestselling editor and former senior editor at Harper and PRH</p>
-                        <h2 id="more">READ FULL BIO</h2>
-                    </div>
-
-                </div>
-                <div class="member-books">
-                    <img src="Assets/Images/Daring-Greatly.webp" alt="">
-                    <img src="Assets/Images/Rising-Strong-.webp" alt="">
-                    <img src="Assets/Images/Find-Your-Path.webp" alt="">
-                </div>
-            </div>
-            <div class="member-card">
-                <div class="member-description">
-
-                    <div class="member-image"><img src="Assets/Images/kendra-harpster.jpg" alt=""></div>
                     <div class="member-bio">
                         <p id="name">Kendra Harpster</p>
                         <p id="designation"><em><b>Executive Editor</b></em></p>
@@ -542,12 +407,47 @@
 
                 </div>
                 <div class="member-books">
-                    <img src="Assets/Images/James-Bond_-Casino-Royale-by-Ian-Fleming.png" alt="">
-                    <img src="Assets/Images/The-Fall-of-Nu╠Аmenor-by-J.R.R.-Tolkien.png" alt="">
-                    <img src="Assets/Images/The-Bourne-Deception-by-Robert-Ludlum.png" alt="">
+                    <img src="Assets/Images/THE-LAKE-OF-DREAMS-1.png" alt="">
+                    <img src="Assets/Images/IN-THE-WOODS_-1.png" alt="">
+                    <img src="Assets/Images/THE-SLEEPWALKERS-GUIDE-TO-DANCING-1.png" alt="">
                 </div>
             </div>
+            <div class="member-card">
+                <div class="member-description">
 
+                    <div class="member-image"><img src="Assets/Images/Stephen-Power-headshot-797x1200.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">David Cashion</p>
+                        <p id="designation"><em><b>Executive Editor</b></em></p>
+                        <p>New York Times-bestselling, former Big 5 acquisitions editor</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <div class="member-books">
+                    <img src="Assets/Images/RASPUTINS-DAUGHTER-1.png" alt="">
+                    <img src="Assets/Images/THE-TESTAMENT-OF-GIDEON-MACK.png" alt="">
+                    <img src="Assets/Images/LAPD53.png" alt="">
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-description">
+
+                    <div class="member-image"><img src="Assets/Images/SYoung_headshot-902x1200.jpg" alt=""></div>
+                    <div class="member-bio">
+                        <p id="name">Jaime Levine</p>
+                        <p id="designation"><em><b>Executive Editor</b></em></p>
+                        <p>#1 New York Times bestselling editor and former Big 5 executive editor with 35+ New York Times bestsellers</p>
+                        <h2 id="more">READ FULL BIO</h2>
+                    </div>
+
+                </div>
+                <div class="member-books">
+                    <img src="Assets/Images/The-Ares-Decision-by-Kyle-Mills-from-The-Estate-of-Robert-Ludlum_-800x1074.png" alt="">
+                    <img src="Assets/Images/The-Double-O-Section-Double-or-Nothing-by-Kim-Sherwood-from-The-Estate-of-Ian-Fleming-1-800x1074.png" alt="">
+                    <img src="Assets/Images/The-Fall-of-Gondolin-from-The-Estate-of-J.R.R.-Tolkien_-800x1074.png" alt="">
+                </div>
+            </div>
         </div>
         <div class="team-button"><button>Meet our Team</button></div>
     </section>
@@ -565,21 +465,23 @@
             <div class="wcu-right-col">
 
                 <div class="row benefits-row-item">
-                    <h2>Big-5 Editors</h2>
-
-                    <p> Have your book reviewed by a former Big-5 acquisitions editor who has acquired and edited hundreds of traditionally published books.
-                    </p>
-                </div>
-
-                <div class="row benefits-row-item">
-                    <h2>Personalized Service</h2>
-                    <p>Our services are tailored to each and every client. Tell us your book-publishing goals, and we will show you exactly how to achieve them.
-                    </p>
-                </div>
-
-                <div class="row benefits-row-item">
                     <h2>Proven Record of Success</h2>
-                    <p>Our track record includes hundreds of traditionally published books, numerous award-winners, and #1 New York Times bestsellers.
+
+                    <p> Our work includes countless award-winning and #1 New York Times- bestselling books. Leading publishers and agents hire KAA to write books for their authors.
+                    </p>
+                </div>
+
+                <div class="row benefits-row-item">
+                    <h2>#1 Bestselling Ghostwriters</h2>
+
+                    <p> Work with the best talent in the industry. Our team includes #1 New York Times-bestselling fiction ghostwriters.
+                    </p>
+                </div>
+
+                <div class="row benefits-row-item">
+                    <h2>Publishing Navigation</h2>
+
+                    <p> We’ll develop a customized publishing strategy and guide you through every step of the process to ensure your novel lands with the right publisher.
                     </p>
                 </div>
 
@@ -587,57 +489,222 @@
         </div>
 
 
-        <!-- <div class="columns reversed">
+        <div class="columns reversed">
             <div class="wcu-left-col">
                 <img src="Assets/Images/Low-Time-Commitment.jpg" alt="">
             </div>
             <div class="wcu-right-col">
                 <div class="row benefits-row-item2">
-                    <h2>Agent and Publisher Access</h2>
+                    <h2>Big-5 Editors</h2>
                     <p>
-                        Our clients include literary agents and publishers, offering you unparalleled access to the industry. While not every book is suitable for trade publishing, we regularly secure publishing deals for our clients.
+                        Your project will be overseen by an editor who has held senior positions at Big-5 publishers, has deep knowledge of the publishing landscape, and has produced numerous bestselling titles.
+
+
                     </p>
                 </div>
                 <div class="row benefits-row-item2">
-                    <h2>Proven Record of Success</h2>
+                    <h2>Comprehensive Service</h2>
                     <p>
-                        Our book-editing service has produced numerous national bestsellers and launched the careers of multiple #1 New York Times bestselling authors. See testimonials from literary agents, publishers, and bestselling authors.
+                        Brainstorming, concept creation, outlining, writing, revisions, editing, beta testing, marketing and PR strategy, agent acquisition, publishing strategy, and more.
                     </p>
                 </div>
                 <div class="row benefits-row-item2">
-                    <h2>Publishing Strategy and Navigation</h2>
+                    <h2>Agent and Publisher Connections</h2>
                     <p>
-                        We help you build an effective publishing strategy and navigate the industry. Whether your publishing goals include a trade publisher or non-traditional options, we ensure your book is in good hands.
+                        Our clients include literary agents and publishers who specialize in fiction, offering you unparalleled access to the industry. While not every novel is the right fit for a traditional publisher, we regularly secure deals for our clients
                     </p>
                 </div>
             </div>
-        </div> -->
+        </div>
+    </section>
+    <section class="gw-experience-wrapper">
+        <div class="gw-experience-container">
+            <div class="experience-content">
+                <div class="experience-content-heading">
+                    <h1>The KAA Ghostwriting Experience</h1>
+                    <hr>
+                </div>
+                <div class="experience-content-text">
+                    <p>We carefully customize our ghostwriting process to meet your specific needs <br> and publishing goals. The process below describes a standard ghostwriting experience.</p>
+                </div>
+            </div>
+            <div class="experience-accordians">
+                <div class="container my-5">
+                    <div class="accordion-item" id="accordion-item-1">
+                        <input type="checkbox" id="accordion1" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion1">
+                            <span class="accordion-number">01</span>
+                            <span class="accordion-title"> Complimentary Author Consultation</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Before any commitments are made or contracts are signed, we take the time to get to know you, your book, and your publishing goals. We’ll provide consultation regarding the publishing industry and discuss the optimal strategy for your book.
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion2" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion2">
+                            <span class="accordion-number">02</span>
+                            <span class="accordion-title">
+                                Preparation and Research</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Through a series of phone calls and questionnaires, we’ll help you think through your book concept, platform, audience, and marketplace. Our preparation also includes reviewing any drafts, notes, articles, outlines, and other relevant background materials.
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion3" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion3">
+                            <span class="accordion-number">03</span>
+                            <span class="accordion-title">
+                                Meet Your Book-Writing Team</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Every great book ever written was the result of an effective team. With KAA, you have an industry-leading team of bestselling writers, editors, and publishing executives that will develop a comprehensive strategy, navigate the publishing industry for you, and help you achieve your publishing goals.
+                            <br><br>
+                            <b>Your Book Editor</b>
+                            Your editor will lead the book-writing process and collaborate with the team to (a) develop the book’s positioning, core concepts, structure, and themes; (b) provide market analysis and advise on target audience, marketing, and publishing strategy; (c) edit and review the manuscript throughout the book-writing process.
+
+                            Note: All of the in-house editors at KAA are former acquisitions editors at Big-5 publishing houses (Penguin Random House, HarperCollins, Simon & Schuster, Macmillan, and Hachette) who have acquired and edited hundreds of traditionally published books, including numerous New York Times bestsellers.
+                            <br><br>
+                            <b>Your Writer/Ghostwriter</b>
+                            Your writer will work with you to pen your words to the page and revise the manuscript to ensure it captures your voice and vision. Our impressive roster of writers includes #1 New York Times-bestselling and award-winning authors in a wide variety of genres.
+                            <br><br>
+                            <b>Your Project Manager</b>
+                            There are a lot of moving parts when it comes to writing and publishing a book. Your project manager will establish and maintain the timeline, schedule interviews, and be a helpful resource for any questions that come up along the way.
+                            <br><br>
+                            <b>Publishing Executives</b>
+                            Our team of publishing executives work behind the scenes with your writing team to ensure your book is aligned with your goals. They’ll also help you find the best home for your book (more on that below).
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion4" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion4">
+                            <span class="accordion-number">04</span>
+                            <span class="accordion-title">
+                                Strategy Sessions: Planning and Outlining Your Book</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Meet with your book-writing team in person or via video conference for in-depth strategy sessions to brainstorm, plan, and build the foundation of your book. By the end of the sessions, you will have a detailed manuscript outline that captures your vision, as well as a publishing and marketing strategy that aligns with your goals.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion5" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion5">
+                            <span class="accordion-number">05</span>
+                            <span class="accordion-title">
+                                Let’s Write Your Manuscript</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            It’s time to start writing your book! We’ll handle the heavy lifting so you can remain focused on the bigger picture, as well as life’s demands.
+                            <br><br>
+                            <b> Your Words. Your Voice. Our Pen.</b>
+                            At KAA, we ensure that your book is unmistakably yours. Through ongoing interviews and careful editing, we’ll ensure every idea, word, and piece of content sounds and feels like your distinct voice.
+                            <br><br>
+                            <b> Ongoing Manuscript Review and Revisions</b>
+                            Your writer will develop your manuscript one section at a time, giving you ample opportunity to discuss the draft in process and suggest revisions.
+                            <br><br>
+                            Your editor will oversee the writing process and provide ongoing editorial review and direction to ensure the quality of the writing is up to publishing industry standards.
+                            <br><br>
+                            <b>Finalize Your Draft </b>
+                            Once the manuscript is complete and meets your full approval, an additional editor (who has no knowledge of the project) will perform a “cold read,” editing the text for grammar and providing a final round of analysis and consultation.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion6" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion6">
+                            <span class="accordion-number">06</span>
+                            <span class="accordion-title">
+                                Beta Reader Review and Revisions (Optional)</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Your manuscript will be reviewed by 20+ impartial lay readers from within your target demographic who will provide detailed raw feedback and suggest improvements. The writing team will review this feedback with you and revise the book to ensure it resonates with your audience. Beta readers allow you and your team to make editorial decisions based on data.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion7" class="accordion-checkbox">
+                        <label class="accordion-header" for="accordion7">
+                            <span class="accordion-number">07</span>
+                            <span class="accordion-title">
+                                Finding the Best Home for Your Book</span>
+                            <span class="accordion-sign"></span>
+                        </label>
+                        <div class="accordion-content">
+                            Did you know less than 0.1% of people who want to write a book actually publish one? Not at KAA. Whether you want to break into traditional publishing, collaborate with a great hybrid publisher, or make the most of what self-publishing offers, we’ll guide you every step of the way. At KAA, we have former literary agents on staff, partnerships with dozens of publishers, and relationships with the most seasoned book marketers and PR teams to launch your book. We won’t just help you write your book, we’ll ensure you have a remarkable publishing experience.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sh-topics-wrapper">
+        <div class="sh-content-container">
+            <div class="sh-heading">Our Nonfiction Ghostwriting Services By Genre</div>
+            <div class="sh-list">
+                <ul class="custom-list">
+                    <li>Novels</li>
+                    <li>Novellas </li>
+                    <li> Short stories</li>
+                    <li> Screenplays</li>
+                    <li> Stage plays</li>
+                    <li> Treatments</li>
+                </ul>
+                <ul class="custom-list">
+                    <li>Commercial fiction</li>
+                    <li>Fantasy</li>
+                    <li>Historical fiction</li>
+                    <li>Romance</li>
+                    <li>Horror</li>
+                    <li>Urban fiction</li>
+                </ul>
+                <ul class="custom-list">
+                    <li>Science fiction</li>
+                    <li>Mystery and thriller</li>
+                    <li>LGTBQ+</li>
+                    <li>Humor and satire</li>
+                    <li>YA and children’s books</li>
+                    <li>…and more</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="location-wrapper">
+        <h4>Our offices are in New York, Nashville, and Los Angeles.</h4>
+        <h4>Can’t get to us? <b>We can bring our team to you.</b></h4>
     </section>
     <section class="kaa">
         <div class="heading">
-            <h2>Unlock Your Book’s Full Potential</h2>
+            <h2>Your Story Deserves to Be Told</h2>
         </div>
         <div class="text">
             <p>
-                Writing a book is one of life’s greatest accomplishments. But like any other author— <br> yes, even bestselling authors—you need a critical eye to review<br> your manuscript and ensure it’s connecting with your target reader.
+                The worst novels are the ones that go unwritten.
             </p>
         </div>
 
         <div class="text">
             <p>
-                We’ll show you how to improve your readers’ experience and enhance your book’s appeal to publishers.
+                At Kevin Anderson & Associates, we’ll collaborate closely with you to absorb your <br> story, plot, characters, and turn the figments of your imagination <br> into a publish-worthy book.
             </p>
         </div>
 
-        <!-- <div class="text">
+        <div class="text">
             <p>
                 Call us to discuss your book idea and begin your journey toward becoming a <br> published author.
             </p>
-        </div> -->
+        </div>
 
         <div class="btn">
             <button class="counter-btn1">SCHEDULE A CONSULTATION</button>
         </div>
+
     </section>
     <section class="faq-wrapper">
         <div class="faq-heading">
@@ -651,15 +718,19 @@
 
                         <h2 class="accordion-header accordion-font-size" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                What's Included in the Consultation Process?
+                                What Do I Need to Consider When Choosing a Ghostwriting Firm?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Our consultants are available to discuss all aspects of your project with you, including planning, preparation, concept generation, organization, development, style, tone, writing, editing, formatting, publishing, and more!<br><br>
+                            <div class="accordion-body">The Internet is littered with online writing and editing services, making it nearly impossible to sift through the scams and find a legitimate and trustworthy service. Here are some questions to ask when you’re vetting companies to ensure that you pick a reliable firm for all your writing and editing needs:
+                                <br><br>
 
-                                Our consulting process is flexible and customizable to your needs and preferences. Consultation sessions generally take place by phone or video call, but can also include in-person meetings if necessary or just written feedback.<br><br>
-
-                                Once you’re happy with the content of your book, we can help you determine which publishing options work best for you and make your published book a reality!
+                                1. Is the price right? If it seems too good to be true, it probably is. Developing a high-quality book can take hundreds of hours of work and requires a high level of expertise—don’t be tempted by third-rate writers who market “affordable” prices.<br><br>
+                                2. Who owns the rights to the book? It’s your book, which means that you should own the rights to your content. Be wary of ghostwriters asking for partial rights to your material.<br><br>
+                                3. What is the payment arrangement? You should always pay for ghostwriting services in installments and never 100% upfront. After the initial deposit, you should make subsequent payments only if you’re happy with what the ghostwriter has written up to that point. You should have clearly defined milestones for payments to ensure that you and your writer know what to expect.<br><br>
+                                4. Who’s in charge? Working with a ghostwriter is a collaborative effort, but you should have the final say on all content decisions. If a writer is unwilling to put your needs and requests first, then it’s not going to be your book—it will be theirs.<br><br>
+                                5. Is the service confidential? This is YOUR book. A ghostwriter’s name should never appear on the completed manuscript unless you want it to be there.<br><br>
+                                Whatever service you decide to use, be sure to protect yourself. Make certain that you are working with a reputable company with experience.
                             </div>
                         </div>
                     </div>
@@ -667,22 +738,22 @@
 
                         <h2 class="accordion-header accordion-font-size" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Can I Work with the Same Consultant the Entire Time I’m Writing My Book?
+                                I Know the General Topic for My Book, But I Don’t Know What Specific Ideas to Include. Can You Help Me?
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Absolutely. In general, we strive for continuity when matching consultants with clients. It is also possible to have the same consultant on multiple projects, which helps to build positive working relationships and foster consistency within your body of writing. Of course, if for any reason you would prefer to work with a different consultant, we’re happy to assign a new one.</div>
+                            <div class="accordion-body">Absolutely! Your ghostwriter can be intimately involved with the planning and development of your concept, and they can also perform in-depth research to augment and elaborate on your topic. We can conduct interviews with you and create an outline for your book based on your ideas that you can then refine and expand with your writer before the process begins.</div>
                         </div>
                     </div>
-                    <!-- <div class="accordion-item faq-accordion-item-custom">
+                    <div class="accordion-item faq-accordion-item-custom">
 
                         <h2 class="accordion-header accordion-font-size" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Do You Edit Fiction and Non-fiction?
+                                What Is the Typical Ghostwriting Process?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Yes, all of our editing services are for all types of fiction and non-fiction books.
+                            <div class="accordion-body">Our comprehensive ghostwriting service provides you with an experienced team of professional writers, editors, and publishing experts who work collectively to write a publish-worthy book. You can read about our general process here; we are happy to personalize our process to your preferences and provide you with a detailed proposal.
 
                             </div>
                         </div>
@@ -691,17 +762,14 @@
 
                         <h2 class="accordion-header accordion-font-size" id="flush-headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                Do You Edit Children's Books?
+                                How Long Does the Ghostwriting Process Typically Take?
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Yes. In addition to editing all types of fiction and non-fiction books, we also edit children’s books.
-                                <br><br>
-                                <a href="#" style="color: black; text-decoration:none; text-decoration:underline; text-decoration-color: #4ebdc5">Here’s a link to our editing services for Children’s books.</a>
-                            </div>
+                            <div class="accordion-body">The duration of the ghostwriting process is partly up to you—the author! Depending on your schedule and desired level of involvement, your ghostwriter will develop material for you to review and approve on a weekly or biweekly basis. While every book is unique, on average, a 200-page or 50,000-word manuscript will take between four and nine months to develop. We can often rush these services for you if you need to meet a specific publishing date.</div>
                         </div>
-                    </div> -->
-                    <!-- <div class="accordion-item faq-accordion-item-custom">
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
 
                         <h2 class="accordion-header accordion-font-size" id="flush-headingSix">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
@@ -769,7 +837,7 @@
                         <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">You can have as much or as little interaction with your ghostwriter and editor as you’d like! We tailor our process to suit your schedule and your needs. Generally, writers opt to have regular interviews and collaboration sessions with their ghostwriter or editor via phone or video call, as well as ongoing communication by email. In certain instances, it is also possible to arrange for in-person meetings with your ghostwriter or editor. The entire process can be molded to best support you!</div>
                         </div>
-                    </div> -->
+                    </div>
 
                     <!-- <div class="accordion-item faq-accordion-item-custom">
 
@@ -801,38 +869,37 @@
 
                         <h2 class="accordion-header accordion-font-size" id="flush-heading15">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
-                                Will a Reviewer Implement the Changes They’ve Suggested, or Will I Have to Do It Myself?
+                                Do I Have to Give the Ghostwriter Credit?
                             </button>
                         </h2>
                         <div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading15" data-bs-parent="#accordionFlushExample2">
-                            <div class="accordion-body">It all depends on what review and consultation services you’ve ordered. We can provide you with comments and suggestions that you choose to implement yourself, or we can make the edits to the content for you. Our goal is to support you to produce the best possible content through customer service that exceeds your expectations.</div>
+                            <div class="accordion-body">No! That is why it is called ghostwriting—no one will know you had help with the writing process unless you choose to tell them. Our services are 100% confidential. We do not retain any rights or ownership of your book whatsoever—it is 100% YOUR book. Whether you earn one dollar or a million, you will never owe us any credit or extra compensation. Be skeptical of other ghostwriting services that may require such promises from you.</div>
                         </div>
                     </div>
                     <div class="accordion-item faq-accordion-item-custom">
 
                         <h2 class="accordion-header accordion-font-size" id="flush-heading16">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapse16">
-                                Can You Help Me with the Publishing and Marketing for My Book?
+                                Is Ghostwriting Ethical?
                             </button>
                         </h2>
                         <div id="flush-collapse16" class="accordion-collapse collapse" aria-labelledby="flush-heading16" data-bs-parent="#accordionFlushExample2">
-                            <div class="accordion-body">We know that the publishing industry can be daunting, especially for first-time authors, so we offer consultation and comprehensive support for traditional, hybrid, and self-publishing outlets. Most of our all-inclusive ghostwriting packages include an original and customized query letter or book proposal free of charge. This invaluable marketing tool will be used to promote your book to literary agents and publishers. Not sure how to find a reputable literary agent? We’ve got you covered—we’ll provide you with a list of genre-appropriate agents to whom you can send your query letter or proposal!
-                            </div>
+                            <div class="accordion-body">Absolutely! The most important elements behind ghostwriting are the ideas—and as the author and initiator of your book, the ideas are all yours. The fact is that some people are just too busy or lack the writing skills to develop a publishable book—but their voices still deserve to be heard. A ghostwriter facilitates this process and acts as a translator between your mind and what readers can understand and enjoy. The ghostwriting process is simply a means for getting your story into the world!</div>
                         </div>
                     </div>
-                    <!-- <div class="accordion-item faq-accordion-item-custom">
+                    <div class="accordion-item faq-accordion-item-custom">
 
                         <h2 class="accordion-header accordion-font-size" id="flush-heading17">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse17" aria-expanded="false" aria-controls="flush-collapse17">
-                                Once the Editing Process Is Complete, Can You Help with Publishing and Marketing?
+                                How Much Do Ghostwriting Services Cost?
                             </button>
                         </h2>
                         <div id="flush-collapse17" class="accordion-collapse collapse" aria-labelledby="flush-heading17" data-bs-parent="#accordionFlushExample2">
-                            <div class="accordion-body">EWe know that the publishing industry can be daunting, especially for first-time authors, so we offer consultation and comprehensive support for traditional, hybrid, and self-publishing outlets. Most of our all-inclusive ghostwriting packages include an original and customized query letter or book proposal free of charge. This invaluable marketing tool will be used to promote your book to literary agents and publishers. Not sure how to find a reputable literary agent? We’ve got you covered—we’ll provide you with a list of genre-appropriate agents to whom you can send your query letter or proposal!
+                            <div class="accordion-body">Every ghostwriting project is unique: our pricing is flexible, and it varies according to what you choose to include in your package. Our comprehensive ghostwriting packages typically include writing services for the manuscript, phone time with the ghostwriter, review by a senior editor, copy editing, an original query letter and synopsis, a personalized list of literary agents to query, and publishing consultation.
                             </div>
                         </div>
-                    </div> -->
-                    <!-- <div class="accordion-item faq-accordion-item-custom">
+                    </div>
+                    <div class="accordion-item faq-accordion-item-custom">
 
                         <h2 class="accordion-header accordion-font-size" id="flush-heading13">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
@@ -899,7 +966,7 @@
                         <div id="flush-collapse21" class="accordion-collapse collapse" aria-labelledby="flush-heading21" data-bs-parent="#accordionFlushExample2">
                             <div class="accordion-body">We know that the publishing industry can be daunting, especially for first-time authors, so we offer consultation and comprehensive support for traditional, hybrid, and self-publishing outlets. Most of our all-inclusive ghostwriting packages include an original and customized query letter or book proposal free of charge. This invaluable marketing tool will be used to promote your book to literary agents and publishers. Not sure how to find a reputable literary agent? We’ve got you covered—we’ll provide you with a list of genre-appropriate agents to whom you can send your query letter or proposal!</div>
                         </div>
-                    </div> -->
+                    </div>
                     <!-- <div class="accordion-item faq-accordion-item-custom">
 
                         <h2 class="accordion-header accordion-font-size" id="flush-heading22">
@@ -950,38 +1017,38 @@
 
             <div class="col-footer">
                 <ul>
-                    <p class="ftr-bold"><a href="./ghostwritingServices.php" class="dropdown-toggle">Book Writing & <br> Ghostwriting</a></p>
-                    <li><a href="./ghostwritingServices.php">Ghostwriting Services</a></li>
-                    <li><a href="./business&LeadershipBooks.php">Business & Leadership <br> Books</a></li>
-                    <li><a href="./autobiographyBooks.php">Memoir/Autobiography <br> Books</a></li>
-                    <li><a href="./health&self-helpBooks.php">Health & Self-Help <br> Books</a></li>
-                    <li><a href="./children'sBooks.php">Children’s Books</a></li>
-                    <li><a href="./generalNonfiction.php">General Nonfiction</a></li>
-                    <li><a href="./fiction.php">Fiction Books</a></li>
-                    <li><a href="./bookProposals.php">Book Proposals</a></li>
+                    <p class="ftr-bold"><a href="./ghostwritingServices.html" class="dropdown-toggle">Book Writing & <br> Ghostwriting</a></p>
+                    <li><a href="./ghostwritingServices.html">Ghostwriting Services</a></li>
+                    <li><a href="./business&LeadershipBooks.html">Business & Leadership <br> Books</a></li>
+                    <li><a href="./autobiographyBooks.html">Memoir/Autobiography <br> Books</a></li>
+                    <li><a href="./health&self-helpBooks.html">Health & Self-Help <br> Books</a></li>
+                    <li><a href="./children'sBooks.html">Children’s Books</a></li>
+                    <li><a href="./generalNonfiction.html">General Nonfiction</a></li>
+                    <li><a href="./fiction.html">Fiction Books</a></li>
+                    <li><a href="./bookProposals.html">Book Proposals</a></li>
                 </ul>
             </div>
 
             <div class="col-footer">
                 <ul>
-                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./bookEditingServices.php">Editing</a></p>
-                    <li><a href="./bookEditingServices.php">Book Editing <br> Services</a></li>
-                    <li><a href="./bookReview&Consultation.php">Book Review & <br> Consultation</a></li>
-                    <li><a href="./culturalAccuracySensitivityEditorialServices.php">Cultural <br> Accuracy & <br> Sensitivity <br> Editorial <br> Services</a></li>
+                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./bookEditingServices.html">Editing</a></p>
+                    <li><a href="./bookEditingServices.html">Book Editing <br> Services</a></li>
+                    <li><a href="./bookReview&Consultation.html">Book Review & <br> Consultation</a></li>
+                    <li><a href="./culturalAccuracySensitivityEditorialServices.html">Cultural <br> Accuracy & <br> Sensitivity <br> Editorial <br> Services</a></li>
                 </ul>
             </div>
 
             <div class="col-footer">
                 <ul>
-                    <p class="ftr-bold"><a href="./bookCoachingServices.php">Book <br> coaching</a></p>
-                    <li><a href="./bookCoachingServices.php">Book Coaching <br> Services</a></li>
+                    <p class="ftr-bold"><a href="./bookCoachingServices.html">Book <br> coaching</a></p>
+                    <li><a href="./bookCoachingServices.html">Book Coaching <br> Services</a></li>
                 </ul>
             </div>
 
             <div class="col-footer">
                 <ul>
-                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./ourTeam.php">About Us</a></p>
-                    <li><a href="./ourTeam.php">Our Team</a></li>
+                    <p class="ftr-bold" style="padding-bottom: 40px;"><a href="./ourTeam.html">About Us</a></p>
+                    <li><a href="./ourTeam.html">Our Team</a></li>
                 </ul>
             </div>
             <div class="col-footer">

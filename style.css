@@ -7,9 +7,6 @@
     box-sizing: border-box;
     --font-family: sans-serif;
 }
-
-body {}
-
 .hamburger {
     display: none;
     cursor: pointer;
