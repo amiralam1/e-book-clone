@@ -85,22 +85,33 @@
     text-decoration: none;
     font-weight: 700;
     display: block;
+    position: relative;
 }
 
-a::after {
+.nav-tab {
+    color: #051d38;
+    font-weight: 700;
+    cursor: default;
+    transition: color 0.2s ease;
+}
+
+.nav-tab:hover {
+    color: #47bac3;
+}
+
+.dropdown-1 a::after {
     content: "";
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 20px;
+    bottom: 6px;
     width: 0;
     height: 2px;
     background-color: #59d6e1;
     transition: width 0.5s ease;
 }
 
-
-a:hover::after {
-    width: 100%;
+.dropdown-1 a:hover::after {
+    width: calc(100% - 40px);
 }
 
 .btn1 {
@@ -125,16 +136,19 @@ a:hover::after {
 .dropdown-1 {
     list-style-type: none;
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     top: 100%;
     background-color: #051d38;
-    max-width: 600px;
+    width: max-content;
+    min-width: 200px;
+    padding: 6px 0;
     display: block;
     opacity: 0;
     max-height: 0;
     overflow: hidden;
     z-index: 999;
-    transition: opacity 0.2s ease, max-height 0.5s ease, color 0.2s ease;
+    transition: opacity 0.2s ease, max-height 0.5s ease;
 }
 
 
@@ -149,9 +163,12 @@ a:hover::after {
 
 .dropdown-1 li a {
     color: #f9fafa;
-    padding: 12px 16px;
+    padding: 10px 20px;
     text-decoration: none;
     display: block;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
 }
 
 .dropdown-1 li a:hover {
@@ -239,9 +256,12 @@ a:hover::after {
         position: relative;
     }
 
-    a::after {
-        content: none;
+    .nav-tab {
+        color: rgb(255, 255, 255);
+    }
 
+    .dropdown-1 a::after {
+        content: none;
     }
 
     /* Add a larger, white arrow icon next to each li except for 'Rates'  */
@@ -263,6 +283,10 @@ a:hover::after {
         /* Hide the dropdown-1 by default */
         list-style-type: none;
         position: relative;
+        left: auto;
+        transform: none;
+        width: 100%;
+        min-width: unset;
         background-color: #051d38;
         opacity: 0;
         height: 0;

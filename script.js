@@ -29,16 +29,25 @@
   
   dropdownItems.forEach(item => {
     const arrowIcon = item.querySelector('.arrow-icon');
-  
+
     item.addEventListener('click', function (event) {
       const clickedInsideDropdown = event.target.closest('.dropdown-1');
-  
+
       if (clickedInsideDropdown) {
         return;
       }
-  
+
       const isActive = item.classList.contains('active');
-  
+
+      // Close all other open dropdowns and reset their arrows
+      dropdownItems.forEach(otherItem => {
+        if (otherItem !== item) {
+          otherItem.classList.remove('active');
+          const otherArrow = otherItem.querySelector('.arrow-icon');
+          if (otherArrow) otherArrow.classList.remove('rotate');
+        }
+      });
+
       if (isActive) {
         item.classList.remove('active');
         arrowIcon.classList.remove('rotate');
